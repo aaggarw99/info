@@ -38,8 +38,9 @@ nav > ul > li {
   background: #ddd;
 }
 
-nav ul li:hover {
+#navBarHover:hover {
   background: #D1D0CE;
+  border-radius: 5px;
 }
 
 #icon_nohover {
@@ -56,12 +57,6 @@ img {
 
 #icon_nohover a:hover img {
   color: red;
-}
-
-
-
-nav > ul > li:hover {
-  border-radius: 5px;
 }
 
 
