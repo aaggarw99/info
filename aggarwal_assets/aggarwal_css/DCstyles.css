@@ -242,7 +242,7 @@ a:hover{
   margin-left:47%;
   margin-top:23%;
   background-color: rgba(255,255,85, .5);
-  animation: opacityChange 300ms ease-in forwards;
+  animation: opacityChange 500ms ease-in forwards;
 }
 
 /*Green*/
@@ -313,6 +313,7 @@ a:hover{
 @-webkit-keyframes opacityChange {
   0% {
     opacity: 0;
+    transform: translateX(90deg);
   }
   100% {
     opacity: 1;
