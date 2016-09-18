@@ -188,12 +188,12 @@ a:hover{
 
 /*For the information pages*/
 .document {
+  text-align: center;
+  vertical-align: middle;
   width: 40%;
-  background-color: grey;
   height: 650px;
   margin-left: 30%;
   margin-right: 30%;
-  margin: 0 auto;
   margin-top: 10px;
   clear: both;
   background-color: #d3d3d3;
