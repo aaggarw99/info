@@ -46,6 +46,10 @@ nav ul li#icon_nohover: hover {
   background: none;
 }
 
+#right_nav ul li #icon_nohover: hover {
+  background: none;
+}
+
 img {
   line-height: 65px;
   margin-left: 10px;
