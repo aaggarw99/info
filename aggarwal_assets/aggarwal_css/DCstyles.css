@@ -245,17 +245,7 @@ a:hover{
   background-color: rgba(255,255,85, .5);
 }
 
-.trigger {
-  width: 150px;
-  height: 150px;
-  margin-left:47%;
-  margin-top:23%;
-  pointer-events: none;
-  background-color: transparent;
-
-}
-
-.trigger:hover #athleticsSticky{
+#athleticsSticky:hover{
   animation: hoverSticky 250ms ease-in-out forwards;
 }
 
