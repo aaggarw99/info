@@ -434,4 +434,6 @@ a:hover{
   position: absolute;
   top: 0px;
   left: 0px;
+  border: 4px solid transparent;
+  border-top-color: orangered;
 }
