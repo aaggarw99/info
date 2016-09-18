@@ -42,7 +42,7 @@ nav ul li:hover {
   background: #D1D0CE;
 }
 
-.icon_nohover {
+#icon_nohover {
   pointer-events: none;
 }
 
@@ -54,7 +54,7 @@ img {
   margin-bottom: 5px;
 }
 
-a:hover img {
+#icon_nohover a:hover img {
   color: red;
 }
 
