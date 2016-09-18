@@ -203,6 +203,12 @@ a:hover{
   padding-right: 20px;
 }
 
+.page_content {
+  position: relative;
+  padding:left: 20px;
+  padding-right: 20px;
+}
+
 #pageHeaders{
   color: red;
   font-size: 25px;
