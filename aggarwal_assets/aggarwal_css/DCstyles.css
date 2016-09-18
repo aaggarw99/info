@@ -79,12 +79,10 @@ nav > ul > li:hover {
 #right_nav > ul > li:hover {
   border-radius: 5px;
 }
-/*
+
 #nobackground{
   background-color: whitesmoke;
-  background-image: url("aggarwal_assets/aggarwal_images/mail.png");
-
-}*/
+}
 
 
 ul.drop-menu {
