@@ -42,11 +42,7 @@ nav ul li:hover {
   background: #D1D0CE;
 }
 
-nav ul li#icon_nohover: hover {
-  background: none;
-}
-
-#right_nav ul li #icon_nohover: hover {
+li:hover #icon_nohover {
   background: none;
 }
 
