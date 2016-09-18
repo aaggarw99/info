@@ -325,11 +325,15 @@ a:hover{
 
 @-webkit-keyframes hoverSticky {
   0% {
-    transform: rotate(30deg);
+    transform: rotate(15deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
   }
 
   100% {
-    transform: rotate(-30deg);
+    transform: rotate(-15deg);
   }
 }
 
