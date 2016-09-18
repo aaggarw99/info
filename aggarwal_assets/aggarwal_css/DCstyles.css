@@ -10,7 +10,7 @@ nav{
   padding: 30px;
   text-align: left;
   float:left;
-  width:35%;
+  width:20%;
   z-index: 10;
 }
 
@@ -61,7 +61,7 @@ nav > ul > li:hover {
   padding: 30px;
   float:right;
   text-align: right;
-  width: 30%;
+  width: 20%;
   font-family: Rockwell, “Courier Bold”, Courier, Georgia, Times, “Times New Roman”, serif;
 }
 
