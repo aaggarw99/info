@@ -418,6 +418,8 @@ a:hover{
   background-color: grey;
   margin-left: 40%;
   margin-right: 40%;
+  display: inline-block;
+  position: relative;
 }
 
 .spinner:after, .spinner:before{
