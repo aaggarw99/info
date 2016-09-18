@@ -39,13 +39,9 @@ nav > ul > li {
 }
 
 #navBarHover:hover {
-  background: #D1D0CE;
   border-radius: 5px;
 }
 
-#icon_nohover {
-  pointer-events: none;
-}
 
 img {
   line-height: 65px;
