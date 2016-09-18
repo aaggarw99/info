@@ -38,6 +38,10 @@ nav > ul > li {
   background: #ddd;
 }
 
+nav ul li:hover {
+  background: #837E7C;
+}
+
 img {
   line-height: 65px;
   margin-left: 10px;
