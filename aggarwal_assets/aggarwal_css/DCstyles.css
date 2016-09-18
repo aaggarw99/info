@@ -46,6 +46,10 @@ img {
   margin-bottom: 5px;
 }
 
+a:hover img {
+  background-color: #d3d3d3;
+}
+
 
 
 nav > ul > li:hover {
