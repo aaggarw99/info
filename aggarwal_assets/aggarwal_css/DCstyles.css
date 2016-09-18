@@ -42,8 +42,8 @@ nav ul li:hover {
   background: #D1D0CE;
 }
 
-li:hover #icon_nohover {
-  background: none;
+.icon_nohover {
+  pointer-events: none;
 }
 
 img {
