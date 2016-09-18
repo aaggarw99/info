@@ -115,7 +115,8 @@ ul.drop-menu li {
 ul.drop-menu li:hover {
   background: #606060;
   color: red;
-  border: 0px 2px 0px 2px;
+  border-left-width: 2px;
+  border-right-width: 2px;
   border-color: red;
 }
 
