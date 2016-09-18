@@ -245,7 +245,7 @@ a:hover{
 }
 
 #athleticsSticky:hover{
-  animation: hoverSticky 250ms ease-in forwards;
+  animation: hoverSticky 250ms ease-in-out forwards;
 }
 
 /*Green*/
