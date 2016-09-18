@@ -246,7 +246,7 @@ a:hover{
 }
 
 #athleticsSticky:hover{
-  animation: hoverSticky 400ms ease-in forwards;
+  animation: hoverSticky 250ms ease-in forwards;
 }
 
 /*Green*/
@@ -325,11 +325,11 @@ a:hover{
 
 @-webkit-keyframes hoverSticky {
   0% {
-    transform: rotate(8deg);
+    transform: rotate(5deg);
   }
 
   50% {
-    transform: rotate(-8deg);
+    transform: rotate(-5deg);
   }
 
   100% {
