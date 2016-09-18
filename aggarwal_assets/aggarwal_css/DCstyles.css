@@ -328,7 +328,7 @@ a:hover{
   }
 
   50% {
-    transform: rotate(-5deg) scale(1.5);
+    transform: rotate(-5deg) scale(1.2);
   }
 
   100% {
