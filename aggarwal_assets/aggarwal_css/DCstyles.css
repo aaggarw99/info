@@ -218,7 +218,7 @@ a:hover{
   padding-left: 5px;
   padding-right: 5px;
   text-align: left;
-  overflow: scroll;
+
 }
 
 #stickyOverflow{
@@ -239,6 +239,7 @@ a:hover{
 
 /*Yellow*/
 #athleticsSticky{
+  overflow: scroll;
   position: fixed;
   width: 150px;
   height: 150px;
@@ -256,6 +257,7 @@ a:hover{
 
 /*Green*/
 #mathSticky{
+  overflow: scroll;
   position: fixed;
   width: 150px;
   height: 150px;
@@ -273,6 +275,7 @@ a:hover{
 
 /*Blue*/
 #appSticky{
+  overflow: scroll;
   position: fixed;
   width: 150px;
   height: 150px;
@@ -290,6 +293,7 @@ a:hover{
 
 /*Red*/
 #scienceSticky{
+  overflow: scroll;
   position: fixed;
   width: 150px;
   height: 150px;
@@ -307,6 +311,7 @@ a:hover{
 
 /*Orange*/
 #vismedSticky{
+  overflow: scroll;
   position: fixed;
   width: 150px;
   height: 150px;
@@ -324,6 +329,7 @@ a:hover{
 
 /*Purple*/
 #communitySticky{
+  overflow: scroll;  
   position: fixed;
   width: 150px;
   height: 150px;
