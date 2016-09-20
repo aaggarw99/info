@@ -1,5 +1,12 @@
 html{
   font-family: Rockwell, “Courier Bold”, Courier, Georgia, Times, “Times New Roman”, serif;
+
+}
+
+html h1 {
+  color: red;
+  z-index: -1000;
+  text-align: center;
 }
 
 body{
