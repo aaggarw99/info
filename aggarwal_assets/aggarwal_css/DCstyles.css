@@ -4,7 +4,7 @@ html{
 }
 
 html h1 {
-  color: red;
+  color: rgba(255,0,0, 0.5);
   z-index: -1000;
   text-align: center;
   top: 50%;
