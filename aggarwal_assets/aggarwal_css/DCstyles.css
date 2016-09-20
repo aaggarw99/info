@@ -54,6 +54,7 @@ nav > ul > li {
 #wrapper {
   border: 2px solid black;
   height: 500px;
+  width: 100%;
   display:block;
 }
 
