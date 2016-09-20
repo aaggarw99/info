@@ -3,7 +3,7 @@ html{
 
 }
 
-body h1 {
+header h1 {
   color: rgba(255,0,0, 0.5);
   z-index: -1000;
   text-align: center;
