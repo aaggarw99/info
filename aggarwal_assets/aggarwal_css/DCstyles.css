@@ -251,7 +251,6 @@ a:hover{
 /*Yellow*/
 #athleticsSticky{
   overflow: scroll;
-  position: relative;
   width: 150px;
   height: 150px;
   padding: 10px;
