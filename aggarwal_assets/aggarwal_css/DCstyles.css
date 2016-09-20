@@ -10,7 +10,8 @@ body h1 {
   position: relative;
   z-index: -1;
   border: 2px solid black;
-  top: 50%;
+  margin-top: 30%;
+
 }
 
 body{
