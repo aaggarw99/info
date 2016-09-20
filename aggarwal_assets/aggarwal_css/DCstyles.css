@@ -55,9 +55,11 @@ nav > ul > li {
   border: 2px solid black;
   height: 500px;
   width: 100%;
-  display: inline-block;
 }
 
+#wrapper div {
+  display: inline-block;
+}
 
 
 img {
