@@ -8,6 +8,7 @@ html h1 {
   z-index: -1000;
   text-align: center;
   clear: both;
+  top: 50%;
 }
 
 body{
