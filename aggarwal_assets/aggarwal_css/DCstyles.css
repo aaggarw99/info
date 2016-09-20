@@ -252,7 +252,7 @@ a:hover{
 /*Yellow*/
 #athleticsSticky{
   overflow: scroll;
-  position: fixed;
+  position: relative;
   width: 150px;
   height: 150px;
   padding: 10px;
@@ -270,7 +270,7 @@ a:hover{
 /*Green*/
 #mathSticky{
   overflow: scroll;
-  position: fixed;
+  position: relative;
   width: 150px;
   height: 150px;
   padding: 10px;
