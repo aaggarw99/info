@@ -262,11 +262,11 @@ body div div p {
   position: fixed;
   width: 150px;
   height: 150px;
-  padding-left: 5px;
-  padding-right: 5px;
   border-radius: 5px;
   border-bottom: 4px solid #ccc;
   background-color: rgba(255,255,85, 0.5);
+  margin-left: 40%;
+  margin-top: 25%;
 
 }
 
@@ -280,11 +280,11 @@ body div div p {
   position: fixed;
   width: 150px;
   height: 150px;
-  padding: 10px;
   border-radius: 5px;
   border-bottom: 4px solid #ccc;
   background-color: rgba(34,139,34, .5);
-  margin-left:
+  margin-left: 29%;
+  margin-top: 15%;
 }
 
 #mathSticky:hover{
@@ -297,11 +297,10 @@ body div div p {
   position: fixed;
   width: 150px;
   height: 150px;
-  padding: 10px;
   border-radius: 5px;
   border-bottom: 4px solid #ccc;
   background-color: rgba(0,191,255, .5);
-  margin-left: 8%;
+  margin-left: 18%;
   margin-top: 10%;
 }
 
@@ -315,10 +314,11 @@ body div div p {
   position: fixed;
   width: 150px;
   height: 150px;
-  padding: 10px;
   border-radius: 5px;
   border-bottom: 4px solid #ccc;
   background-color: rgba(205,92,92, 0.5);
+  margin-left: 70%;
+  margin-top: 15%;
 }
 
 #scienceSticky:hover{
@@ -331,10 +331,11 @@ body div div p {
   position: fixed;
   width: 150px;
   height: 150px;
-  padding: 10px;
   border-radius: 5px;
   border-bottom: 4px solid #ccc;
   background-color: rgba(255,165,0, 0.5);
+  margin-left: 55%;
+  margin-top: 20%;
 }
 
 #vismedSticky:hover{
