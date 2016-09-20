@@ -267,6 +267,7 @@ body div div p {
   border-radius: 5px;
   border-bottom: 4px solid #ccc;
   background-color: rgba(255,255,85, 0.5);
+  margin-left: 16%;
 
 }
 
@@ -284,6 +285,7 @@ body div div p {
   border-radius: 5px;
   border-bottom: 4px solid #ccc;
   background-color: rgba(34,139,34, .5);
+  margin-left: 32%;
 }
 
 #mathSticky:hover{
@@ -300,6 +302,7 @@ body div div p {
   border-radius: 5px;
   border-bottom: 4px solid #ccc;
   background-color: rgba(0,191,255, .5);
+  margin-left: 46%;
 }
 
 #appSticky:hover{
@@ -316,6 +319,7 @@ body div div p {
   border-radius: 5px;
   border-bottom: 4px solid #ccc;
   background-color: rgba(205,92,92, 0.5);
+  margin-left: 58%;
 }
 
 #scienceSticky:hover{
@@ -332,6 +336,7 @@ body div div p {
   border-radius: 5px;
   border-bottom: 4px solid #ccc;
   background-color: rgba(255,165,0, 0.5);
+  margin-left:  74%;
 }
 
 #vismedSticky:hover{
@@ -348,6 +353,7 @@ body div div p {
   border-radius: 5px;
   border-bottom: 4px solid #ccc;
   background-color: rgba(218,112,214, 0.5);
+  margin-left: 90%
 }
 
 #communitySticky:hover{
