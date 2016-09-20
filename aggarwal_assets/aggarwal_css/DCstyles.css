@@ -57,6 +57,10 @@ nav > ul > li {
   width: 100%;
 }
 
+#wrapper div {
+  display: inline-block;
+}
+
 
 img {
   line-height: 65px;
