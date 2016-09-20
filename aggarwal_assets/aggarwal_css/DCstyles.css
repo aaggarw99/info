@@ -285,7 +285,7 @@ body div div p {
   border-bottom: 4px solid #ccc;
   background-color: rgba(34,139,34, .5);
   margin-left: 34%;
-  margin-top: 12%;
+  margin-top: 13%;
   padding: 10px;
 }
 
@@ -303,7 +303,7 @@ body div div p {
   border-bottom: 4px solid #ccc;
   background-color: rgba(0,191,255, .5);
   margin-left: 18%;
-  margin-top: 12%;
+  margin-top: 14%;
   padding: 10px;
 }
 
@@ -321,7 +321,7 @@ body div div p {
   border-bottom: 4px solid #ccc;
   background-color: rgba(205,92,92, 0.5);
   margin-left: 84%;
-  margin-top: 12%;
+  margin-top: 14%;
   padding: 10px;
 }
 
@@ -339,7 +339,7 @@ body div div p {
   border-bottom: 4px solid #ccc;
   background-color: rgba(255,165,0, 0.5);
   margin-left: 67%;
-  margin-top: 12%;
+  margin-top: 13%;
   padding: 10px;
 }
 
@@ -358,7 +358,7 @@ body div div p {
   border-bottom: 4px solid #ccc;
   background-color: rgba(218,112,214, 0.5);
   margin-left: 3%;
-  margin-top: 12%;
+  margin-top: 15%;
 }
 
 #communitySticky:hover{
