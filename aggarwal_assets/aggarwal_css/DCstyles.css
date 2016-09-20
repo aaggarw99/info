@@ -235,9 +235,6 @@ a:hover{
 
 }
 
-.contentInSticky {
-  display: inline-block;
-}
 
 #stickyOverflow{
   overflow-y: scroll;
