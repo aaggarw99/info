@@ -7,7 +7,6 @@ body h1 {
   color: rgba(255,0,0, 0.5);
   text-align: center;
   clear: both;
-  border: 2px solid black;
   z-index: -1000;
 }
 
@@ -53,7 +52,6 @@ nav > ul > li {
 }
 
 #wrapper {
-  border: 2px solid black;
   height: 500px;
   width: 100%;
   z-index: 1000;
