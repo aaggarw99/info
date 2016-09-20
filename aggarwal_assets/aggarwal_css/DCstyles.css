@@ -260,7 +260,7 @@ body div div p {
 /*Yellow*/
 #athleticsSticky{
   overflow: scroll;
-  position: absolute;
+  position: fixed;
   width: 150px;
   height: 150px;
   padding: 10px;
@@ -277,7 +277,7 @@ body div div p {
 /*Green*/
 #mathSticky{
   overflow: scroll;
-  position: absolute;
+  position: fixed;
   width: 150px;
   height: 150px;
   padding: 10px;
@@ -293,7 +293,7 @@ body div div p {
 /*Blue*/
 #appSticky{
   overflow: scroll;
-  position: absolute;
+  position: fixed;
   width: 150px;
   height: 150px;
   padding: 10px;
@@ -309,7 +309,7 @@ body div div p {
 /*Red*/
 #scienceSticky{
   overflow: scroll;
-  position: absolute;
+  position: fixed;
   width: 150px;
   height: 150px;
   padding: 10px;
@@ -325,7 +325,7 @@ body div div p {
 /*Orange*/
 #vismedSticky{
   overflow: scroll;
-  position: absolute;
+  position: fixed;
   width: 150px;
   height: 150px;
   padding: 10px;
@@ -341,7 +341,7 @@ body div div p {
 /*Purple*/
 #communitySticky{
   overflow: scroll;
-  position: absolute;
+  position: fixed;
   width: 150px;
   height: 150px;
   padding: 10px;
