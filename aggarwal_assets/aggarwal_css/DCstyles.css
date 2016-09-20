@@ -234,6 +234,10 @@ a:hover{
 
 }
 
+.contentInSticky {
+  display: inline-block;
+}
+
 #stickyOverflow{
   overflow-y: scroll;
 }
@@ -258,8 +262,6 @@ a:hover{
   padding: 10px;
   border-radius: 5px;
   border-bottom: 4px solid #ccc;
-  margin-left:10%;
-  margin-top:10%;
   background-color: rgba(255,255,85, 0.5);
 }
 
@@ -276,8 +278,6 @@ a:hover{
   padding: 10px;
   border-radius: 5px;
   border-bottom: 4px solid #ccc;
-  margin-left:30%;
-  margin-top:10%;
   background-color: rgba(34,139,34, .5);
 }
 
@@ -294,8 +294,6 @@ a:hover{
   padding: 10px;
   border-radius: 5px;
   border-bottom: 4px solid #ccc;
-  margin-left:40%;
-  margin-top:10%;
   background-color: rgba(0,191,255, .5);
 }
 
@@ -312,8 +310,6 @@ a:hover{
   padding: 10px;
   border-radius: 5px;
   border-bottom: 4px solid #ccc;
-  margin-left:50%;
-  margin-top:10%;
   background-color: rgba(205,92,92, 0.5);
 }
 
@@ -330,8 +326,6 @@ a:hover{
   padding: 10px;
   border-radius: 5px;
   border-bottom: 4px solid #ccc;
-  margin-left:61%;
-  margin-top:10%;
   background-color: rgba(255,165,0, 0.5);
 }
 
@@ -348,8 +342,6 @@ a:hover{
   padding: 10px;
   border-radius: 5px;
   border-bottom: 4px solid #ccc;
-  margin-left:9%;
-  margin-top:30%;
   background-color: rgba(218,112,214, 0.5);
 }
 
