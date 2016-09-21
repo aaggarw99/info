@@ -264,7 +264,7 @@ body div div p {
   height: 250px;
   background-color: transparent;
   z-index: -5;
-  margin-top: -5px;
+  border: 2px solid black;
 
 }
 
@@ -272,6 +272,8 @@ body div div p {
   font-size: 320px;
   color: rgba(255, 0, 0, 0.5);
   text-align: center;
+  border: 2px solid orange;
+
 
 }
 
