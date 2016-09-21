@@ -119,11 +119,6 @@ img {
 
 
 
-/*#nobackground{
-  background-color: whitesmoke;
-}*/
-
-
 ul.drop-menu {
   position: absolute;
   top: 100%;
@@ -262,6 +257,22 @@ body div div p {
 
 .stickyNoteLine{
   border: 0.5px solid black;
+}
+
+.bigfontBackground {
+  position: fixed;
+  width: 50%;
+  height: 250px;
+  background-color: transparent;
+  margin-left: 50%;
+  z-index: -5;
+
+}
+
+.bigfontBackground h1{
+  font-size: 48px;
+  color: rgba(255, 0, 0, 0.5);
+
 }
 
 
