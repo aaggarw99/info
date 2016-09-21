@@ -437,7 +437,9 @@ body div div p {
   }
 }
 
-
+.loader {
+  background-color: white;
+}
 
 
 .spinner {
@@ -447,7 +449,7 @@ body div div p {
   margin-left: 40%;
   margin-right: 40%;
   display: inline-block;
-    z-index: 500;
+  z-index: 500;
 }
 
 .spinner:after, .spinner:before{
