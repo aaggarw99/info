@@ -62,7 +62,6 @@ nav > ul > li {
   width: 100%;
   position: absolute;
   z-index: 5;
-  border: 2px solid black;
   margin-top: 150px;
 }
 
@@ -266,7 +265,6 @@ body div div p {
   background-color: transparent;
   z-index: -5;
   margin-top: 1%;
-  border: 2px solid black;
 
 }
 
