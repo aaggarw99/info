@@ -448,6 +448,7 @@ body div div p {
   margin-right: 40%;
   display: inline-block;
   position: relative;
+  z-index: 500;
 }
 
 .spinner:after, .spinner:before{
