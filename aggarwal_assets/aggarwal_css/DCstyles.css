@@ -261,7 +261,7 @@ body div div p {
 .bigfontBackground {
   position: fixed;
   width: 100%;
-  height: 250px;
+  height: 400px;
   background-color: transparent;
   z-index: -5;
   border: 2px solid black;
