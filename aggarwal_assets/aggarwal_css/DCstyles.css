@@ -265,6 +265,7 @@ body div div p {
   height: 250px;
   background-color: transparent;
   margin-left: 40%;
+  margin-top: 10%;
   z-index: -5;
 
 }
