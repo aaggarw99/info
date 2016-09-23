@@ -442,7 +442,6 @@ body div div p {
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: 1000;
   top: 0;
   left: 0;
 }
@@ -501,9 +500,10 @@ body div div p {
 .loader .loader-section {
   position: fixed;
   top: 0;
-  width: 51%;
+  width: 50%;
   height: 100%;
   background-color: grey;
+  z-index: 1000;
 }
 
 .loader .loader-section .section-left {
