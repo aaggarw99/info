@@ -1,5 +1,5 @@
 function timer() {
   alert('Hello');
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("spinner").style.display= "none";
+  document.getElementByClass("loader").style.display = "none";
+  document.getElementByClass("spinner").style.display= "none";
 }
