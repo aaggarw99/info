@@ -501,15 +501,14 @@ body div div p {
   top: 0;
   width: 51%;
   height: 100%;
+  background-color: grey;
 }
 
 .loader .loader-section .section-left {
   left: 0;
-  background-color: grey;
 
 }
 
 .loader .loader-section .section-right {
   right: 0;
-  background-color: grey;
 }
