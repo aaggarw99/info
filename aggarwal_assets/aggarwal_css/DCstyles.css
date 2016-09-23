@@ -205,7 +205,6 @@ a:link{
   color:black;
 }
 a:hover{
-  color:#ff3232;
   animation: hoverTransition 200ms ease-in-out forwards;
 }
 
@@ -388,8 +387,10 @@ body div div p {
 @-webkit-keyframes hoverTransition {
   0% {
     opacity: 0.5;
+    color: black;
   }
   100% {
+    color:#ff3232;
     opacity: 1;
   }
 }
