@@ -444,12 +444,10 @@ body div div p {
   width: 100%;
   height: 100%;
   z-index: 1000;
+  color: red;
 
 }
 
-.loader p {
-    color: red;
-}
 
 
 .spinner {
