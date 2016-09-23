@@ -508,11 +508,11 @@ body div div p {
   display: block;
 }
 
-.loader .loader-section .section-left {
+.loader .loader-section.section-left {
   left: 0;
 
 }
 
-.loader .loader-section .section-right {
+.loader .loader-section.section-right {
   right: 0;
 }
