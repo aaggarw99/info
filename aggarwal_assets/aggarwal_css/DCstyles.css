@@ -508,11 +508,13 @@ body div div p {
 
 .loader .loader-section .section-left {
   left: 0;
+  z-index: 1000;
   background-color: grey;
 
 }
 
 .loader .loader-section .section-right {
   right: 0;
+  z-index: 1000;
   background-color: grey;
 }
