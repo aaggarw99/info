@@ -444,6 +444,7 @@ body div div p {
   height: 100%;
   top: 0;
   left: 0;
+  border: 2px solid red;
 }
 
 .loader .spinner p {
