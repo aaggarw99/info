@@ -445,6 +445,7 @@ body div div p {
   height: 100%;
   z-index: 1000;
   color: red;
+  border: 2px solid black;
 
 }
 
@@ -461,7 +462,7 @@ body div div p {
   margin-top: -50px;
   display: inline-block;
   z-index: 10001;
-
+  border: 2px solid orange;
 }
 
 .spinner:after, .spinner:before{
