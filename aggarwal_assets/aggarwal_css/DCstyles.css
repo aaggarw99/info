@@ -386,7 +386,7 @@ body div div p {
 
 @-webkit-keyframes hoverTransition {
   0% {
-    opacity: 0.5;
+    opacity: 0;
     color: black;
   }
   100% {
