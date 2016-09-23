@@ -193,7 +193,7 @@ a{
 }
 
 a:default{
-  color:black;
+  color: rgba(0, 0, 0, 0.5);
 }
 a:visited{
   color:black;
@@ -205,7 +205,7 @@ a:link{
   color:black;
 }
 a:hover{
-  animation: hoverTransition 200ms ease-in forwards;
+  animation: hoverTransition 100ms ease-in forwards;
 }
 
 /*For the information pages*/
@@ -386,7 +386,7 @@ body div div p {
 
 @-webkit-keyframes hoverTransition {
   0% {
-    opacity: 0;
+    opacity: 0.5;
   }
   100% {
     color:#ff3232;
