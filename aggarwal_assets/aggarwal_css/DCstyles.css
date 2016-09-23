@@ -444,7 +444,6 @@ body div div p {
   height: 100%;
   top: 0;
   left: 0;
-  border: 2px solid red;
 }
 
 .loader .spinner p {
@@ -501,9 +500,9 @@ body div div p {
 .loader .loader-section {
   position: fixed;
   top: 0;
-  width: 50%;
+  width: 51%;
   height: 100%;
-  border: 4px solid black;
+  background-color: #ddd;
   z-index: 1000;
   display: block;
 }
