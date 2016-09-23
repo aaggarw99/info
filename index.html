@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html onload="setTimeout(timer, 1000);">
+<html>
   <head>
     <meta charset="utf-8">
     <title>Ashwin Aggarwal</title>
@@ -31,7 +31,7 @@
       </ul>
     </nav>
   </header>
-  <body>
+  <body onload="setTimeout(timer, 1000);">
     <div class="loader">
 
       <div class="spinner spinner1">
@@ -97,14 +97,6 @@
       <p>	&copy; All Rights Reserved. Ashwin Aggarwal</p>
 
     </footer>
-    <script>
-      function timer() {
-        alert('Hello');
-        document.getElementById("loader").style.display = "none";
-        document.getElementById("spinner").style.display= "none";
-      }
-    </script>
-
   </body>
 
 </html>
