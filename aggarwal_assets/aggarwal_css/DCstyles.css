@@ -515,3 +515,19 @@ body div div p {
 .loader .loader-section.section-right {
   right: 0;
 }
+
+.loaded .loader .loader-section.section-left {
+  -webkit-transform: translateX(-100%);
+}
+
+.loaded .loader .loader-section.section-right {
+  -webkit-transform: translateX(100%);
+}
+
+.loaded .spinner {
+  opacity: 0;
+}
+
+.loaded .loader {
+  visibility: hidden;
+}
