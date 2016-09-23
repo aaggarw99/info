@@ -518,10 +518,12 @@ body div div p {
 
 .loaded .loader .loader-section.section-left {
   animation: translationL 300ms ease-out forwards;
+  transition: all 0.3 0.3 ease-out;
 }
 
 .loaded .loader .loader-section.section-right {
   animation: translationR 300ms ease-out forwards;
+  transition: all 0.3 0.3 ease-out;
 }
 
 @-webkit-keyframes translationL {
@@ -544,7 +546,10 @@ body div div p {
 
 .loaded .spinner {
   opacity: 0;
+  transition: all 0.3 ease-out;
 }
+
+
 
 .loaded .loader {
   visibility: hidden;
