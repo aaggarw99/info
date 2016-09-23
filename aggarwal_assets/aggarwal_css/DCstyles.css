@@ -205,7 +205,7 @@ a:link{
   color:black;
 }
 a:hover{
-  animation: hoverTransition 200ms ease-in forwards;
+  animation: hoverTransition 300ms ease-in forwards;
 }
 
 /*For the information pages*/
