@@ -462,7 +462,6 @@ body div div p {
   margin-top: -50px;
   display: inline-block;
   z-index: 10001;
-  border: 2px solid orange;
 }
 
 .spinner:after, .spinner:before{
