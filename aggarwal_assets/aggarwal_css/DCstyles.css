@@ -517,11 +517,29 @@ body div div p {
 }
 
 .loaded .loader .loader-section.section-left {
-  -webkit-transform: translateX(-100%);
+  animation: translationL 300ms ease-out forwards;
 }
 
 .loaded .loader .loader-section.section-right {
-  -webkit-transform: translateX(100%);
+  animation: translationR 300ms ease-out forwards;
+}
+
+@-webkit-keyframes translationL {
+  0% {
+
+  }
+  100% {
+    transform: translateX(-100%)
+  }
+}
+
+@-webkit-keyframes translationR {
+  0% {
+
+  }
+  100% {
+    transform: translateX(100%)
+  }
 }
 
 .loaded .spinner {
