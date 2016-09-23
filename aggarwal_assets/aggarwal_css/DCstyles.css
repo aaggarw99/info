@@ -452,6 +452,7 @@ body div div p {
 .loader .spinner p {
   font-size: 22px;
   color: red;
+  border: 2px solid black;
 }
 
 
