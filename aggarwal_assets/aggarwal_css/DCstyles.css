@@ -496,3 +496,22 @@ body div div p {
     transform: rotate(360deg) scale(1);
   }
 }
+
+
+.loader .loader-section {
+  position: fixed;
+  top: 0;
+  width: 51%;
+  height: 100%;
+  z-index: 1000;
+  background-color: grey;
+}
+
+.loader .loader-section .section-left {
+  left: 0;
+
+}
+
+.loader .loader-section .section-right {
+  right: 0;
+}
