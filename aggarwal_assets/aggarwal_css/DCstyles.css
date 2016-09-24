@@ -549,10 +549,17 @@ body div div p {
 
 .loaded .spinner {
   opacity: 0;
-  transform: all 0.3s ease-out;
-  -webkit-transform: all 0.3s ease-out;
+  animation: fadeOutSpinner 0.3s ease-out;
 }
 
+@-webkit-keyframes fadeOutSpinner {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
 
 .loaded .loader {
