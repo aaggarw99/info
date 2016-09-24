@@ -517,48 +517,28 @@ body div div p {
 }
 
 .loaded .loader .loader-section.section-left {
-  animation: translationL 300ms ease-out forwards;
-  transform: all 0.3s 0.3s ease-out;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+
+
   -webkit-transform: all 0.3s 0.3s ease-out;
+  transform: all 0.3s 0.3s ease-out;
 }
 
 .loaded .loader .loader-section.section-right {
-  animation: translationR 300ms ease-out forwards;
-  transform: all 0.3s 0.3s ease-out;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+
+
   -webkit-transform: all 0.3s 0.3s ease-out;
-}
-
-@-webkit-keyframes translationL {
-  0% {
-
-  }
-  100% {
-    transform: translateX(-100%)
-  }
-}
-
-@-webkit-keyframes translationR {
-  0% {
-
-  }
-  100% {
-    transform: translateX(100%)
-  }
+   transform: all 0.3s 0.3s ease-out;
 }
 
 
 .loaded .spinner {
   opacity: 0;
-  animation: fadeOutSpinner 0.3s ease-out;
-}
-
-@-webkit-keyframes fadeOutSpinner {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+  -webkit-transform: all 0.3s ease-out;
+  transform: all 0.3 ease-out;
 }
 
 
