@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 $(document).ready(function(){
   setTimeout(function() {
-    $("nav").slideDown(400);
-  }, 2000)
-    
+    $("nav").slideDown(400).fadeIn(400);
+  }, 2500)
+
 });
