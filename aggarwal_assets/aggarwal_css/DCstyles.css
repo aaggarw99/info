@@ -505,6 +505,8 @@ body div div p {
 }
 .spinner5 span {
   display: block;
+  height: 40px;
+  width: 40px;
   background: black;
   border-radius: 50%;
   position: absolute;
@@ -513,14 +515,14 @@ body div div p {
 }
 .spinner5 span:nth-child(1) {
   left: -40px;
-          animation: bounce 1s ease-in-out infinite;
+          /*animation: bounce 1s ease-in-out infinite;*/
 }
 .spinner5 span:nth-child(2) {
-          animation: bounce 1s ease-in-out 0.33s infinite;
+          /*animation: bounce 1s ease-in-out 0.33s infinite;*/
 }
 .spinner5 span:nth-child(3) {
   left: 40px;
-          animation: bounce 1s ease-in-out 0.66s infinite;
+          /*animation: bounce 1s ease-in-out 0.66s infinite;*/
 }
 
 @-webkit-keyframes bounce {
