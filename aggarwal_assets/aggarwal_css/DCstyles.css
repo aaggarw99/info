@@ -500,26 +500,26 @@ body div div p {
 }
 
 .spinner-5 {
-  height: 20px;
-  width: 20px;
+  height: 0px;
+  width: 0px;
 }
 .spinner-5 span {
   display: block;
   background: black;
   border-radius: 50%;
   position: absolute;
-  left: 50%;
+  top: 0;
 
 }
 .spinner-5 span:nth-child(1) {
-  left: 49%;
+  left: -40px;
           animation: bounce 1s ease-in-out infinite;
 }
 .spinner-5 span:nth-child(2) {
           animation: bounce 1s ease-in-out 0.33s infinite;
 }
 .spinner-5 span:nth-child(3) {
-  left: 51%;
+  left: 40px;
           animation: bounce 1s ease-in-out 0.66s infinite;
 }
 
