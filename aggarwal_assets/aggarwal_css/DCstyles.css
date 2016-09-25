@@ -511,16 +511,18 @@ body div div p {
   border-radius: 50%;
   position: absolute;
   top: 0px;
+  left: 50%;
+
 }
 .spinner-5 span:nth-child(1) {
-  left: -40px;
+  left: 49%;
           animation: bounce 1s ease-in-out infinite;
 }
 .spinner-5 span:nth-child(2) {
           animation: bounce 1s ease-in-out 0.33s infinite;
 }
 .spinner-5 span:nth-child(3) {
-  left: 40px;
+  left: 51%;
           animation: bounce 1s ease-in-out 0.66s infinite;
 }
 
