@@ -10,7 +10,7 @@ $(document).ready(function() {
 
 $(document).ready(function(){
   setTimeout(function() {
-    $("nav #slideIn").slideDown(400).fadeIn(400);
+    $("nav").slideDown(400).fadeIn(400);
   }, 2300);
 
 });
