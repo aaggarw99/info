@@ -10,6 +10,6 @@ $(document).ready(function() {
 
 $(document).ready(function(){
   setTimeout(function() {
-    $('indexNav').slideDown(400).fadeIn(400);
+    $('indexNav nav').slideDown(400).fadeIn(400);
   }, 2300);
 });
