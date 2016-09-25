@@ -12,5 +12,10 @@ $(document).ready(function(){
   setTimeout(function() {
     $("nav").slideDown(400).fadeIn(400);
   }, 2300);
+});
 
+$(document).ready(function() {
+  if (top.location.pathname === 'math.html' || 'vismed3d.html' || 'appstore.html' || 'science.html' || 'athletics.html'){
+    $("nav").css("display", "none");
+  }
 });
