@@ -502,6 +502,7 @@ body div div p {
 .spinner2 {
   height: 0px;
   width: 0px;
+  z-index: 10001;
 }
 .spinner2 span {
   display: block;
