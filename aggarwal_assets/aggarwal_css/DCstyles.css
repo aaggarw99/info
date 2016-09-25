@@ -511,6 +511,7 @@ body div div p {
   border-radius: 50%;
   position: absolute;
   top: 0px;
+  padding: 5px;
 
 }
 .spinner5 span:nth-child(1) {
