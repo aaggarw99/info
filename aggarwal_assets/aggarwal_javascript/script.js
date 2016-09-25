@@ -16,7 +16,7 @@ $(document).ready(function(){
 
 $(document).ready(function() {
   setTimeout(function() {
-    $('athleticsSticky').css('opacity', '0.5')
+    $('athleticsSticky').css('display', 'block');
   }, 2300);
 });
 

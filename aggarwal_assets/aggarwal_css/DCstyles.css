@@ -286,10 +286,11 @@ body div div p {
   height: 150px;
   border-radius: 5px;
   border-bottom: 4px solid #ccc;
-  background-color: rgba(255,255,85, 0);
+  background-color: rgba(255,255,85, 0.5);
   margin-left: 51%;
   margin-top: 10%;
   padding: 10px;
+  display: none;
 
 }
 
