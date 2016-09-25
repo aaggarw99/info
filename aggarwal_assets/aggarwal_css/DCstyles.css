@@ -499,11 +499,11 @@ body div div p {
   }
 }
 
-.spinner5 {
+.spinner2 {
   height: 0px;
   width: 0px;
 }
-.spinner5 span {
+.spinner2 span {
   display: block;
   height: 20px;
   width: 20px;
@@ -512,14 +512,14 @@ body div div p {
   position: absolute;
   top: 0px;
 }
-.spinner5 span:nth-child(1) {
+.spinner2 span:nth-child(1) {
   left: -40px;
           animation: bounce 1s ease-in-out infinite;
 }
-.spinner5 span:nth-child(2) {
+.spinner2 span:nth-child(2) {
           animation: bounce 1s ease-in-out 0.33s infinite;
 }
-.spinner5 span:nth-child(3) {
+.spinner2 span:nth-child(3) {
   left: 40px;
           animation: bounce 1s ease-in-out 0.66s infinite;
 }
