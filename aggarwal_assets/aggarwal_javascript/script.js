@@ -14,11 +14,11 @@ $(document).ready(function(){
   }, 2300);
 });
 
-$(document).ready(function() {
-  setTimeout(function() {
-    $('#mathSticky').fadeIn(300);
-  }, 2100);
-});
+// $(document).ready(function() {
+//   setTimeout(function() {
+//     $('#mathSticky').fadeIn(300);
+//   }, 2100);
+// });
 
 // setTimeout(function() {
 //   $('#athleticsSticky').fadeIn(400);
