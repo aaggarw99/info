@@ -1,8 +1,8 @@
-// $(document).ready(function() {
-//     setTimeout(function(){
-//         $('body').addClass('loaded');
-//     }, 2000);
-//   });
+$(document).ready(function() {
+    setTimeout(function(){
+        $('body').addClass('loaded');
+    }, 2000);
+  });
 
 
 // eventually add if statement whether coming from external link
