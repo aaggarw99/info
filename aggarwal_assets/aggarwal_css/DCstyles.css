@@ -26,6 +26,7 @@ nav{
   float:left;
   width:20%;
   /*z-index: 10;*/
+  display: none;
 }
 
 
