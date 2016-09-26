@@ -20,6 +20,11 @@ body{
   background-color: whitesmoke;
 }
 
+footer {
+  background-color: #ddd;
+  left: 0;
+}
+
 nav{
   padding: 30px;
   text-align: left;
