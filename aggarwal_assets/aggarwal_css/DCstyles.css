@@ -283,23 +283,19 @@ body div div p {
   margin-top: 100px;
 }
 
-#sticky {
+
+/*Yellow*/
+#athleticsSticky{
   overflow: scroll;
+  position: fixed;
   width: 150px;
   height: 150px;
   border-radius: 5px;
   border-bottom: 4px solid #ccc;
-  padding: 10px;
-}
-
-
-/*Yellow*/
-#athleticsSticky{
   background-color: rgba(255,255,85, 0.5);
   margin-left: 51%;
   margin-top: 10%;
-  position: fixed;
-
+  padding: 10px;
 }
 
 #athleticsSticky:hover{
@@ -308,9 +304,16 @@ body div div p {
 
 /*Green*/
 #mathSticky{
+  overflow: scroll;
+  position: fixed;
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  border-bottom: 4px solid #ccc;
   background-color: rgba(34,139,34, .5);
   margin-left: 34%;
   margin-top: 11%;
+  padding: 10px;
 }
 
 #mathSticky:hover{
@@ -319,9 +322,16 @@ body div div p {
 
 /*Blue*/
 #appSticky{
+  overflow: scroll;
+  position: fixed;
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  border-bottom: 4px solid #ccc;
   background-color: rgba(0,191,255, .5);
   margin-left: 18%;
   margin-top: 12%;
+  padding: 10px;
 }
 
 #appSticky:hover{
@@ -330,9 +340,16 @@ body div div p {
 
 /*Red*/
 #scienceSticky{
+  overflow: scroll;
+  position: fixed;
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  border-bottom: 4px solid #ccc;
   background-color: rgba(205,92,92, 0.5);
   margin-left: 84%;
   margin-top: 12%;
+  padding: 10px;
 }
 
 #scienceSticky:hover{
@@ -341,9 +358,16 @@ body div div p {
 
 /*Orange*/
 #vismedSticky{
+  overflow: scroll;
+  position: fixed;
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  border-bottom: 4px solid #ccc;
   background-color: rgba(255,165,0, 0.5);
   margin-left: 67%;
   margin-top: 11%;
+  padding: 10px;
 }
 
 #vismedSticky:hover{
@@ -352,6 +376,13 @@ body div div p {
 
 /*Purple*/
 #communitySticky{
+  overflow: scroll;
+  position: fixed;
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  border-bottom: 4px solid #ccc;
   background-color: rgba(218,112,214, 0.5);
   margin-left: 3%;
   margin-top: 13%;
@@ -360,6 +391,7 @@ body div div p {
 #communitySticky:hover{
   animation: hoverSticky 250ms ease-in-out forwards;
 }
+
 
 @-webkit-keyframes hoverTransition {
   0% {
