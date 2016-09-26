@@ -285,7 +285,6 @@ body div div p {
 
 #sticky {
   overflow: scroll;
-  position: fixed;
   width: 150px;
   height: 150px;
   border-radius: 5px;
@@ -299,6 +298,8 @@ body div div p {
   background-color: rgba(255,255,85, 0.5);
   margin-left: 51%;
   margin-top: 10%;
+  position: fixed;
+
 }
 
 #athleticsSticky:hover{
