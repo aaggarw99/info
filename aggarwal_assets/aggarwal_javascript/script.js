@@ -14,12 +14,6 @@ $(document).ready(function(){
   }, 2300);
 });
 
-$(document).ready(function() {
-  setTimeout(function() {
-    $('athleticsSticky').css('display', 'block');
-  }, 2300);
-});
-
 // $(document).ready(function() {
 //   setTimeout(function() {
 //     $('#mathSticky').fadeIn(300);
