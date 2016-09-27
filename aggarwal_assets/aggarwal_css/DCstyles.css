@@ -195,6 +195,7 @@ li:hover > ul.drop-menu.menu1 li {
   line-height: 10px;
   padding-left: 10px;
   background-color: #ddd;
+  z-index: 500;
 }
 
 a{
