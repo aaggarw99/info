@@ -254,6 +254,10 @@ body div div p {
 }
 
 
+#textIndent {
+  text-indent: 30px;
+}
+
 #stickyOverflow{
   overflow-y: scroll;
 }
