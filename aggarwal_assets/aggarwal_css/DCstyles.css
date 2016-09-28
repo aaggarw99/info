@@ -232,8 +232,7 @@ a:hover{
 }
 
 .page_content img {
-  left: 50%;
-  margin-left: -100px;
+  text-align: center;
 }
 
 #pageHeaders{
