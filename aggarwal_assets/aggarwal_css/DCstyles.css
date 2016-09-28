@@ -20,6 +20,10 @@ body{
   background-color: whitesmoke;
 }
 
+body #triangle {
+  background-image: url("aggarwal_assets/aggarwal_images/triangle.jpg");
+}
+
 footer {
   background-color: #ddd;
   left: 0;
