@@ -4,17 +4,20 @@ $(document).ready(function() {
     }, 2000);
   });
 
+$(function() {
+  $("#slideshow > div:gt(0)").hide();
 
-$("#slideshow > div:gt(0)").hide();
+    setInterval(function() {
+      $('#slideshow > div:first')
+        .fadeOut(1000)
+        .next()
+        .fadeIn(1000)
+        .end()
+        .appendTo('#slideshow');
+    },  3000);
 
-  setInterval(function() {
-    $('#slideshow > div:first')
-      .fadeOut(1000)
-      .next()
-      .fadeIn(1000)
-      .end()
-      .appendTo('#slideshow');
-},  3000);
+});
+
 
 
 // eventually add if statement whether coming from external link
