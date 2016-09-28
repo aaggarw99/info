@@ -225,6 +225,19 @@ a:hover{
   padding-right: 20px;
 }
 
+#slideshow {
+  position: relative;
+  width: 40%;
+  height: 250px;
+}
+
+#slideshow div {
+  position: absolute;
+  
+}
+
+
+
 .page_content {
   position: relative;
   padding:left: 20px;
