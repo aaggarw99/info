@@ -231,6 +231,11 @@ a:hover{
   padding-right: 20px;
 }
 
+.page_content img {
+  left: 50%;
+  margin-left: -100px;
+}
+
 #pageHeaders{
   color: red;
   font-size: 30px;
