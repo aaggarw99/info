@@ -78,15 +78,6 @@ nav > ul > li {
 
 }
 
-
-img {
-  line-height: 65px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
 #icon_nohover a:hover img {
   color: red;
 }
