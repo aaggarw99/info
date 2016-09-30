@@ -440,6 +440,7 @@ body div div p {
   0% {
     transform: rotate(5deg) scale(1);
     opacity: 0.5;
+    color: black;
   }
 
   50% {
@@ -449,6 +450,7 @@ body div div p {
   100% {
     transform: rotate(0deg) scale(1.5);
     opacity: .9;
+    color: black;
   }
   /*
   0% {
