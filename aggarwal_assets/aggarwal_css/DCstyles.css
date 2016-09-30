@@ -317,10 +317,11 @@ body div div p {
   height: 150px;
   border-radius: 5px;
   border-bottom: 4px solid #939393;
-  background-color: rgba(255,255,85, 0.5);
+  background-color: rgb(255,255,85);
   margin-left: 51%;
   margin-top: 10%;
   padding: 10px;
+  opacity: 0.5;
 }
 
 #athleticsSticky:hover{
@@ -335,10 +336,11 @@ body div div p {
   height: 150px;
   border-radius: 5px;
   border-bottom: 4px solid #939393;
-  background-color: rgba(34,139,34, .5);
+  background-color: rgb(34,139,34);
   margin-left: 34%;
   margin-top: 11%;
   padding: 10px;
+  opacity: 0.5;
 }
 
 #mathSticky:hover{
@@ -353,10 +355,11 @@ body div div p {
   height: 150px;
   border-radius: 5px;
   border-bottom: 4px solid #939393;
-  background-color: rgba(0,191,255, .5);
+  background-color: rgb(0,191,255);
   margin-left: 18%;
   margin-top: 12%;
   padding: 10px;
+  opacity: 0.5;
 }
 
 #appSticky:hover{
@@ -371,10 +374,11 @@ body div div p {
   height: 150px;
   border-radius: 5px;
   border-bottom: 4px solid #939393;
-  background-color: rgba(205,92,92, 0.5);
+  background-color: rgb(205,92,92);
   margin-left: 84%;
   margin-top: 12%;
   padding: 10px;
+  opacity: 0.5;
 }
 
 #scienceSticky:hover{
@@ -389,14 +393,16 @@ body div div p {
   height: 150px;
   border-radius: 5px;
   border-bottom: 4px solid #939393;
-  background-color: rgba(255,165,0, 0.5);
+  background-color: rgb(255,165,0);
   margin-left: 67%;
   margin-top: 11%;
   padding: 10px;
+  opacity: 0.5;
 }
 
 #vismedSticky:hover{
   animation: hoverSticky 250ms ease-in-out forwards;
+
 }
 
 /*Purple*/
@@ -408,24 +414,14 @@ body div div p {
   padding: 10px;
   border-radius: 5px;
   border-bottom: 4px solid #939393;
-  background-color: rgba(218,112,214, 0.5);
+  background-color: rgb(218,112,214);
   margin-left: 3%;
   margin-top: 13%;
+  opacity: 0.5;
 }
 
 #communitySticky:hover{
   animation: hoverSticky 250ms ease-in-out forwards;
-}
-
-
-@-webkit-keyframes hoverTransition {
-  0% {
-    opacity: 0.5;
-  }
-  100% {
-    color:#ff3232;
-    opacity: 1;
-  }
 }
 
 @-webkit-keyframes hoverSticky {
