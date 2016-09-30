@@ -216,6 +216,7 @@ a:link{
 }
 a:hover{
   animation: hoverTransition 50ms ease-in forwards;
+  cursor: pointer;
 }
 
 /*For the information pages*/
