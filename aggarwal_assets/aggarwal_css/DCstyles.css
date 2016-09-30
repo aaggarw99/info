@@ -20,7 +20,7 @@ body{
   background-color: whitesmoke;
 }
 
-body indexBody {
+body .indexBody {
   overflow: hidden;
 }
 
