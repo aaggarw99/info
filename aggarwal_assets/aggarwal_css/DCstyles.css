@@ -427,6 +427,7 @@ body div div p {
 @-webkit-keyframes hoverSticky {
   0% {
     transform: rotate(5deg) scale(1);
+    opacity: 0.5;
   }
 
   50% {
