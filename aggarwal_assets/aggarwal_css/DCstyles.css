@@ -322,10 +322,12 @@ body div div p {
   margin-top: 10%;
   padding: 10px;
   opacity: 0.5;
+  color: black;
 }
 
 #athleticsSticky:hover{
   animation: hoverSticky 350ms linear forwards;
+  color: black;
 }
 
 /*Green*/
@@ -424,6 +426,16 @@ body div div p {
   animation: hoverSticky 250ms ease-in-out forwards;
 }
 
+@-webkit-keyframes hoverTransition {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
 @-webkit-keyframes hoverSticky {
   0% {
     transform: rotate(5deg) scale(1);
@@ -436,7 +448,7 @@ body div div p {
 
   100% {
     transform: rotate(0deg) scale(1.5);
-    opacity: 1;
+    opacity: .9;
   }
   /*
   0% {
