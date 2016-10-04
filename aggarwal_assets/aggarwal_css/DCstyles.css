@@ -317,7 +317,7 @@ body div div p {
   height: 150px;
   border-radius: 5px;
   border-bottom: 4px solid #939393;
-  background-color: rgb(255,255,85);
+  background-color: rgba(255,255,85, 0.6);
   margin-left: 51%;
   margin-top: 10%;
   padding: 10px;
@@ -336,7 +336,7 @@ body div div p {
   height: 150px;
   border-radius: 5px;
   border-bottom: 4px solid #939393;
-  background-color: rgb(34,139,34);
+  background-color: rgba(34,139,34, 0.6);
   margin-left: 34%;
   margin-top: 11%;
   padding: 10px;
@@ -354,7 +354,7 @@ body div div p {
   height: 150px;
   border-radius: 5px;
   border-bottom: 4px solid #939393;
-  background-color: rgb(0,191,255);
+  background-color: rgba(0,191,255, 0.6);
   margin-left: 18%;
   margin-top: 12%;
   padding: 10px;
@@ -372,7 +372,7 @@ body div div p {
   height: 150px;
   border-radius: 5px;
   border-bottom: 4px solid #939393;
-  background-color: rgb(205,92,92);
+  background-color: rgba(205,92,92, 0.6);
   margin-left: 84%;
   margin-top: 12%;
   padding: 10px;
@@ -390,7 +390,7 @@ body div div p {
   height: 150px;
   border-radius: 5px;
   border-bottom: 4px solid #939393;
-  background-color: rgb(255,165,0);
+  background-color: rgba(255,165,0, 0.6);
   margin-left: 67%;
   margin-top: 11%;
   padding: 10px;
@@ -410,7 +410,7 @@ body div div p {
   padding: 10px;
   border-radius: 5px;
   border-bottom: 4px solid #939393;
-  background-color: rgb(218,112,214);
+  background-color: rgba(218,112,214, 0.6);
   margin-left: 3%;
   margin-top: 13%;
 }
@@ -433,7 +433,6 @@ body div div p {
 @-webkit-keyframes hoverSticky {
   0% {
     transform: rotate(5deg) scale(1);
-    opacity: 0.65;
     color: black;
   }
 
@@ -443,7 +442,6 @@ body div div p {
 
   100% {
     transform: rotate(0deg) scale(1.5);
-    opacity: .8;
     color: black;
   }
   /*
