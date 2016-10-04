@@ -321,7 +321,7 @@ body div div p {
   margin-left: 51%;
   margin-top: 10%;
   padding: 10px;
-  opacity: 0.5;
+  opacity: 0.65;
   color: black;
 }
 
@@ -342,7 +342,7 @@ body div div p {
   margin-left: 34%;
   margin-top: 11%;
   padding: 10px;
-  opacity: 0.5;
+  opacity: 0.65;
 }
 
 #mathSticky:hover{
@@ -361,7 +361,7 @@ body div div p {
   margin-left: 18%;
   margin-top: 12%;
   padding: 10px;
-  opacity: 0.5;
+  opacity: 0.65;
 }
 
 #appSticky:hover{
@@ -380,7 +380,7 @@ body div div p {
   margin-left: 84%;
   margin-top: 12%;
   padding: 10px;
-  opacity: 0.5;
+  opacity: 0.65;
 }
 
 #scienceSticky:hover{
@@ -399,7 +399,7 @@ body div div p {
   margin-left: 67%;
   margin-top: 11%;
   padding: 10px;
-  opacity: 0.5;
+  opacity: 0.65;
 }
 
 #vismedSticky:hover{
@@ -419,7 +419,7 @@ body div div p {
   background-color: rgb(218,112,214);
   margin-left: 3%;
   margin-top: 13%;
-  opacity: 0.5;
+  opacity: 0.65;
 }
 
 #communitySticky:hover{
@@ -440,7 +440,7 @@ body div div p {
 @-webkit-keyframes hoverSticky {
   0% {
     transform: rotate(5deg) scale(1);
-    opacity: 0.5;
+    opacity: 0.65;
     color: black;
   }
 
