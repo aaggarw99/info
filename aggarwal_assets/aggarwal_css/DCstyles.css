@@ -420,6 +420,7 @@ body div div p {
 }
 
 .shape{
+  z-index: -10;
   width: 0px;
   height: 0px;
   border-right: 60px solid transparent;
