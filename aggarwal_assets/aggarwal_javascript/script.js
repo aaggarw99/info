@@ -15,28 +15,20 @@ $(document).ready(function(){
   }, 2300);
 });
 
-// $(document).ready(function() {
-//   setTimeout(function() {
-//     $('#mathSticky').fadeIn(300);
-//   }, 2100);
-// });
+var modal = document.getElementById('modal_link');
+var button = docuemnt.getElementById('button');
+var close = document.getElementsByClassName("close")[0];
 
-// setTimeout(function() {
-//   $('#athleticsSticky').fadeIn(400);
-// }, 2200);
-//
-// setTimeout(function() {
-//   $('#communitySticky').fadeIn(350);
-// }, 2300);
-//
-// setTimeout(function() {
-//   $('#scienceSticky').fadeIn(250);
-// }, 2400);
-//
-// setTimeout(function() {
-//   $('#vismedSticky').fadeIn(450);
-// }, 2500);
-//
-// setTimeout(function() {
-//   $('#appSticky').fadeIn(500);
-// }, 2600);
+button.onclick  = function() {
+  modal.style.display = "block";
+}
+
+close.onclick = function(){
+  modal.style.display = "none";
+}
+
+window.onclick = function(event){
+  if(event.target == modal) {
+    modal.style.display = "none";
+  }
+}
