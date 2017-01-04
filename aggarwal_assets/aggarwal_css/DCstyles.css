@@ -631,7 +631,7 @@ body div div p {
 
 }
 
-.modal_link{
+.modal{
   display: none;
   position: fixed;
   z-index: 5;
