@@ -69,10 +69,12 @@ nav > ul > li {
   animation: slideInEffect 300ms ease-in forwards;
 }
 
-#navBarHover:hover {
+#navBarHover:hover,
+#myBtn:hover {
   border-radius: 5px;
   cursor: pointer;
 }
+
 
 #wrapper {
   height: 500px;
