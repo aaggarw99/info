@@ -689,3 +689,7 @@ body div div p {
 }
 
 .modal-body {padding: 2px 16px;}
+
+#large {
+  font-size: 16px;
+}
