@@ -634,7 +634,7 @@ body div div p {
 .modal{
   display: none;
   position: fixed;
-  z-index: 5;
+  z-index: 100;
   padding-top: 150px;
   left: 0;
   top: 0;
