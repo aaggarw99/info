@@ -18,6 +18,8 @@ html{
 
 body{
   background-color: whitesmoke;
+  position: relative;
+  min-width: 500px;
 }
 
 .indexBody {
