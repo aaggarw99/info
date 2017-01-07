@@ -262,19 +262,19 @@ a:hover{
   overflow: scroll;
 }
 
-.document #blueDoc {
+ #blueDoc {
   background-color: lightblue;
 }
 
-.document #greenDoc {
+ #greenDoc {
   background-color: lightgreen;
 }
 
-.document #yellowDoc {
+ #yellowDoc {
   background-color: lightyellow;
 }
 
-.document #redDoc {
+ #redDoc {
   background-color: pink;
 }
 
