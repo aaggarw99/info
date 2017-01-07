@@ -260,7 +260,6 @@ a:hover{
   padding-top: 20px;
   padding-right: 20px;
   overflow: scroll;
-
 }
 
 .document #blueDoc {
@@ -278,6 +277,7 @@ a:hover{
 .document #redDoc {
   background-color: pink;
 }
+
 
 #slideshow {
   position: relative;
