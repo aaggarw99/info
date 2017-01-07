@@ -16,13 +16,19 @@ html{
 
 }
 
+header {
+  background-color: orange;
+}
+
 body{
   background-color: whitesmoke;
+  margin: 0;
 }
 
 .indexBody {
   overflow: hidden;
 }
+
 
 body #triangle {
   background-image: url("aggarwal_assets/aggarwal_images/triangle.jpg");
@@ -223,9 +229,9 @@ a:hover{
   width: 40%;
   height: 650px;
   margin-left: 30%;
-  margin-top: 10px;
+  margin-top: -30px;
   clear: both;
-  background-color: cornsilk;
+  background-color: coral;
   border-left: solid black 1px;
   border-right: solid black 1px;
 
