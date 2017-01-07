@@ -16,8 +16,27 @@ html{
 
 }
 
+.blueHeader {
+  background-color: navy;
+}
+
+.greenHeader {
+  background-color: limegreen;
+}
+
+.yellowHeader{
+  background-color: gold;
+}
+
+.redHeader{
+  background-color: darkred;
+}
+
+.reg {
+  background-color: none;
+}
+
 header {
-  background-color: orange;
   height: 175px;
 }
 
@@ -51,6 +70,7 @@ nav{
 
 .indexNav nav {
   display: none;
+  background-color: none;
 }
 
 nav ul{
