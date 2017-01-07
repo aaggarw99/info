@@ -17,19 +17,19 @@ html{
 }
 
 .blueHeader {
-  background-color: navy;
+  background-color: #2196F3;
 }
 
 .greenHeader {
-  background-color: limegreen;
+  background-color: #4CAF50;
 }
 
 .yellowHeader{
-  background-color: gold;
+  background-color: #FFEB3B;
 }
 
 .redHeader{
-  background-color: darkred;
+  background-color: #F44336;
 }
 
 #reg {
@@ -38,7 +38,7 @@ html{
 }
 
 header {
-  height: 175px;
+  height: 225px;
 }
 
 body{
@@ -254,7 +254,7 @@ a:hover{
   clear: both;
   border-left: solid black 1px;
   border-right: solid black 1px;
-  border-top: solid black 3px;
+  border-top: solid grey 5px;
   padding-left: 20px;
   padding-top: 20px;
   padding-right: 20px;
@@ -262,19 +262,19 @@ a:hover{
 }
 
  #blueDoc {
-  background-color: lightblue;
+  background-color: #BBDEFB;
 }
 
  #greenDoc {
-  background-color: lightgreen;
+  background-color: #C8E6C9;
 }
 
  #yellowDoc {
-  background-color: lightyellow;
+  background-color: #FFF9C4;
 }
 
  #redDoc {
-  background-color: pink;
+  background-color: #FFCDD2;
 }
 
 
