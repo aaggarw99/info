@@ -32,8 +32,9 @@ html{
   background-color: darkred;
 }
 
-.reg {
+#reg {
   background-color: none;
+  height: 0;
 }
 
 header {
@@ -70,7 +71,6 @@ nav{
 
 .indexNav nav {
   display: none;
-  background-color: none;
 }
 
 nav ul{
