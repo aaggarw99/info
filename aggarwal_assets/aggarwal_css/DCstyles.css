@@ -38,7 +38,7 @@ html{
 }
 
 header {
-  height: 225px;
+  height: 250px;
 }
 
 body{
@@ -254,7 +254,6 @@ a:hover{
   clear: both;
   border-left: solid black 1px;
   border-right: solid black 1px;
-  border-top: solid grey 5px;
   padding-left: 20px;
   padding-top: 20px;
   padding-right: 20px;
@@ -263,18 +262,25 @@ a:hover{
 
  #blueDoc {
   background-color: #BBDEFB;
+  border-top: solid navy 5px;
 }
 
  #greenDoc {
   background-color: #C8E6C9;
+  border-top: solid #388E3C 5px;
+
 }
 
  #yellowDoc {
   background-color: #FFF9C4;
+  border-top: solid #FBC02D 5px;
+
 }
 
  #redDoc {
   background-color: #FFCDD2;
+  border-top: solid #D32F2F 5px;
+
 }
 
 
