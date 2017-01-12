@@ -676,10 +676,6 @@ body div div p {
 /*
   Button and modal styles
 */
-#button{
-
-}
-
 .modal{
   display: none;
   position: fixed;
