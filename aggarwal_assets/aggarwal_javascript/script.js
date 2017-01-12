@@ -16,7 +16,7 @@ $(document).ready(function(){
 });
 
 var modal = document.getElementById('modal_link');
-var button = document.getElementById("button");
+var button = document.getElementById('button');
 var close = document.getElementsByClassName("close")[0];
 
 button.onclick  = function() {
