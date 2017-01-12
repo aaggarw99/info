@@ -263,24 +263,24 @@ a:hover{
 }
 
  #blueDoc {
-  background-color: #BBDEFB;
+  background-color: #ddd;
   border-top: solid navy 5px;
 }
 
  #greenDoc {
-  background-color: #C8E6C9;
+  background-color: #ddd;
   border-top: solid #388E3C 5px;
 
 }
 
  #yellowDoc {
-  background-color: #FFF9C4;
+  background-color: #ddd;
   border-top: solid #FBC02D 5px;
 
 }
 
  #redDoc {
-  background-color: #FFCDD2;
+  background-color: #ddd;
   border-top: solid #D32F2F 5px;
 
 }
