@@ -2,12 +2,12 @@
 var ref = document.referrer;
 
 if (ref.match(/^https?:\/\/([^\/]+\.)?reddit\.com(\/|$)/i)) {
+  $(document).ready(function(){
+    setTimeout(function() {
+      $('.indexNav nav').slideDown(400).fadeIn(400);
+    }, 2300);
+  });
 
-  $(document).ready(function() {
-      setTimeout(function(){
-          $('body').addClass('loaded');
-      });
-    });
 }else {
   $(document).ready(function(){
     setTimeout(function() {
