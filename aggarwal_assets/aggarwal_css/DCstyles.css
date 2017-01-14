@@ -306,6 +306,10 @@ a:hover{
   padding-bottom: 20px;
 }
 
+.page_content p {
+  padding-bottom: 10px;
+}
+
 #pageHeaders{
   color: red;
   font-size: 30px;
