@@ -7,6 +7,13 @@ $(document).ready(function() {
   setTimeout(function() {
     $('.indexNav nav').slideDown(400).fadeIn(400);
   }, 2300);
+  var modal = document.getElementById('myModal');
+
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn");
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
 });
 
 
@@ -19,13 +26,6 @@ $(document).ready(function() {
 // then have the slide in effect happen with a shorter delay.
 
 // Get the modal
-var modal = document.getElementById('myModal');
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal
 btn.onclick = function() {
