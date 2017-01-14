@@ -1,7 +1,7 @@
 
 var ref = document.referrer;
 
-if (ref.match(/^https?:\/\/([^\/]+\.)?google\.com(\/|$)/i)) {
+if (ref.match(/^https?:\/\/([^\/]+\.)?reddit\.com(\/|$)/i)) {
 
   $(document).ready(function() {
       setTimeout(function(){
