@@ -1,3 +1,6 @@
+
+var ref = document.referrer;
+
 if (ref.match(/^https?:\/\/([^\/]+\.)?google\.com(\/|$)/i)) {
 
   $(document).ready(function() {
