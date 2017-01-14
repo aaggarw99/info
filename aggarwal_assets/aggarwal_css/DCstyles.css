@@ -259,7 +259,7 @@ a:hover{
   padding-right: 20px;
   padding-bottom: 50px;
   box-shadow: 4px 23px 30px black;
-  overflow: scroll;
+  overflow-y: auto;
 }
 
  #blueDoc {
