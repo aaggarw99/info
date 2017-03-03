@@ -393,7 +393,7 @@ body div div p {
 }
 
 /*Blue*/
-#appSticky{
+#facebookSticky{
   overflow: scroll;
   position: fixed;
   width: 150px;
@@ -406,7 +406,7 @@ body div div p {
   padding: 10px;
 }
 
-#appSticky:hover{
+#facebookSticky:hover{
   animation: hoverSticky 250ms ease-in-out forwards;
 }
 
