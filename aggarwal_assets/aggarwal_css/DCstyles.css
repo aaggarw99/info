@@ -248,7 +248,7 @@ a:hover{
   text-align: left;
   vertical-align: middle;
   width: 40%;
-  height: 600px;
+  height: 69vh;
   margin-left: 30%;
   margin-top: -55px;
   clear: both;
@@ -300,6 +300,7 @@ a:hover{
   position: relative;
   padding-right: 20px;
   padding-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .page_content p {
@@ -779,4 +780,7 @@ body div div p {
 }
 #large {
   font-size: 20px;
+}
+
+.allcontent {
 }
