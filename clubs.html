@@ -28,14 +28,30 @@
 
     <nav id="right_nav">
       <ul>
-        <li><a href="mailto:aaggarw99@gmail.com?subject=Reaching%20Out" title= "aaggarw99@gmail.com"><i class="material-icons" style="font-size: 30px; line-height: 48px; margin-top: 10px; margin-bottom: 10px;">mail</i></a></li>
+        <li><a href="javascript:show_popup();"><i class="material-icons" style="font-size: 30px; line-height: 48px; margin-top: 10px; margin-bottom: 10px;">mail</i></a></li>
         <li><a id = "navBarHover" href="ashwin.pdf" target="_blank">RESUME</a></li>
 
       </ul>
     </nav>
   </header>
   <body class="indexBody">
-
+    <!-- Modal for Popup -->
+    <div id = "popup_modal">
+      <div class = "top_header">
+        <a href="javascript:close_popup();">&#10005</a>
+      </div>
+      <p id = "alert_message">
+        Choose how you'd like to contact me!
+      </p>
+      <div class = "button_list">
+        <div id = "copy_clip_button">
+          <a href="javascript:copy_to_clipboard();">Copy Email</a>
+        </div>
+        <div id = "open_mail_button">
+          <a href="mailto:aaggarw99@gmail.com?subject=Reaching%20Out" title= "aaggarw99@gmail.com">Open Mail</a>
+        </div>
+      </div>
+    </div>
 
     <section class="document" id="greenDoc">
       <p id="pageHeaders">Clubs</p>
