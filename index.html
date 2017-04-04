@@ -28,7 +28,7 @@
       <ul>
         <!-- href="mailto:aaggarw99@gmail.com?subject=Reaching%20Out" title= "aaggarw99@gmail.com" -->
         <!-- <li><a id="button"><i class="material-icons" style="font-size: 30px; line-height: 48px; margin-top: 10px; margin-bottom: 10px;">mail</i></a></li> -->
-        <li><a id="myBtn"><i class="material-icons" style="font-size: 30px; line-height: 48px; margin-top: 10px; margin-bottom: 10px;">mail</i></a></li>
+        <li><a href="javascript:show_popup();"><i class="material-icons" style="font-size: 30px; line-height: 48px; margin-top: 10px; margin-bottom: 10px;">mail</i></a></li>
 
         <li><a id = "navBarHover" href="ashwin.pdf" target="_blank">RESUME</a></li>
 
@@ -36,25 +36,7 @@
     </nav>
   </header>
   <body class="indexBody">
-    <!-- Modal for Popup -->
-    <div id="myModal" class="modal">
 
-      <!-- Modal content -->
-      <!-- <div class="modal-content">
-        <div class="modal-header">
-          <span class="close">&times;</span>
-          <h2>Modal Header</h2>
-        </div>
-        <div class="modal-body">
-          <p>Some text in the Modal Body</p>
-          <p>Some other text...</p>
-        </div>
-        <div class="modal-footer">
-          <h3>Modal Footer</h3>
-        </div>
-      </div> -->
-
-    </div>
 
     <!-- Loading Screen -->
     <div class="loader">
@@ -69,7 +51,23 @@
 
 
     <div id="wrapper">
-
+        <!-- Modal for Popup -->
+        <div id = "popup_modal">
+          <div class = "top_header">
+            <a href="javascript:close_popup();">&#10005</a>
+          </div>
+          <p id = "alert_message">
+            Choose how you'd like to contact me!
+          </p>
+          <div class = "button_list">
+            <div id = "copy_clip_button">
+              <a href="javascript:copy_to_clipboard();">Copy Email</a>
+            </div>
+            <div id = "open_mail_button">
+              <a href="mailto:aaggarw99@gmail.com?subject=Reaching%20Out" title= "aaggarw99@gmail.com">Open Mail</a>
+            </div>
+          </div>
+        </div>
         <div class="bigfontBackground">
           <h1>ashwin</h1>
         </div>

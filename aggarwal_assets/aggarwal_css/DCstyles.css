@@ -50,12 +50,6 @@ body{
   overflow: hidden;
 }
 
-
-body #triangle {
-  background-image: url("aggarwal_assets/aggarwal_images/triangle.jpg");
-  background-size: 500px 700px;
-}
-
 footer {
   background-color: #ddd;
   left: 0;
@@ -349,7 +343,7 @@ body div div p {
 .bigfontBackground h1{
   position: relative;
   font-size: 250px;
-  color: rgba(255, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.6);
   text-align: center;
   z-index: -5;
   margin-top: 100px;
@@ -669,118 +663,52 @@ body div div p {
         transition: all 0.3s 0.6s ease-out;
 }
 
-/*
-  Button and modal styles
-*/
-.modal{
-  display: none;
-  position: fixed;
-  z-index: 100;
-  padding-top: 150px;
-  left: 0;
+#popup_modal {
+  width: 400px;
+  padding: 10px;
+  height: 200px;
+  visibility: hidden;
+  z-index: 10000000;
+  background-color: #ddd;
+  opacity: .9;
+  border-radius: 5px;
+  /*border: 1px solid black;*/
+  position: absolute;
   top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.mContent{
-  position: relative;
-  background-color: white;
+  left: 0;
+  bottom: 0;
+  right: 0;
   margin: auto;
-  padding: 0;
-  border: 1px solid #888;
-  width: 80%;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-  -webkit-animation-name: slideInPopup;
-  -webkit-animation-duration: 0.4s;
-  animation-name: slideInPopup;
-  animation-duration: 0.4s
+  box-shadow: 4px 15px 30px black;
 }
 
-@-webkit-keyframes slideInPopup {
-  0%{
-    top: -300px;
-    opacity: 0;
-  }
-  100%{
-    top: 0;
-    opacity: 1;
-  }
+.top_header{
+  position: relative;
+  width: 100%;
+  text-align: right;
+  font-size: 28px;
 }
 
-/* The Close Button */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+#alert_message {
+  position: relative;
+  width: 100%;
+  text-align: center;
 }
 
-/* Modal Content */
-.modal-content {
-    position: relative;
-    background-color: #fefefe;
-    margin: auto;
-    padding: 0;
-    border: 1px solid #888;
-    width: 80%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    -webkit-animation-name: animatetop;
-    -webkit-animation-duration: 0.4s;
-    animation-name: animatetop;
-    animation-duration: 0.4s
+.button_list {
+  position: relative;
+  width: 100%;
+  text-align: center;
 }
 
-/* Add Animation */
-@-webkit-keyframes animatetop {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
-}
-
-@keyframes animatetop {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
-}
-
-/* The Close Button */
-.close {
-    color: white;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.modal-header {
-    padding: 2px 16px;
-    background-color: #5cb85c;
-    color: white;
-}
-
-.modal-body {padding: 2px 16px;}
-
-.modal-footer {
-    padding: 2px 16px;
-    background-color: #5cb85c;
-    color: white;
-}
-#large {
+.button_list #copy_clip_button,
+.button_list #open_mail_button {
   font-size: 20px;
-}
-
-.allcontent {
+  background-color: #666;
+  width: 150px;
+  height: 60px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px;
+  opacity: 1;
 }
