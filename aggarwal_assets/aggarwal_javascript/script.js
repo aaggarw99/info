@@ -1,22 +1,23 @@
 var popup_status = false;
 
 $(document).ready(function() {
+  //User came from other domain or from direct
   if(document.referrer.split('/')[2]!=location.hostname){
-      setTimeout(function() {
-            $('body').addClass('loaded');
-        }, 2000);
-    //User came from other domain or from direct
+
   }else{
     //User came from another page on your site
-    $('body').addClass('loaded');
   }
 });
 $(document).ready(function() {
   if(document.referrer.split('/')[2]!=location.hostname){
+    setTimeout(function() {
+          $('body').addClass('loaded');
+      }, 2000);
       setTimeout(function() {
         $('.indexNav nav').slideDown(400).fadeIn(400);
       }, 2300);
   }else{
+    $('body').addClass('loaded');
     $('.indexNav nav').slideDown(400).fadeIn(400);
   }
 
