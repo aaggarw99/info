@@ -349,115 +349,72 @@ body div div p {
   margin-top: 100px;
 }
 
-
-/*Yellow*/
-#athleticsSticky{
+.sticky {
+  margin-top: 10%;
   overflow: scroll;
   position: fixed;
   width: 150px;
   height: 150px;
   border-radius: 5px;
   border-bottom: 4px solid #939393;
-  background-color: rgba(255,255,85, 0.6);
-  margin-left: 51%;
-  margin-top: 10%;
   padding: 10px;
 }
 
-#athleticsSticky:hover{
+.sticky:hover {
   animation: hoverSticky 350ms linear forwards;
   color: black;
 }
 
-/*Green*/
-#mathSticky{
-  overflow: scroll;
-  position: fixed;
-  width: 150px;
-  height: 150px;
-  border-radius: 5px;
-  border-bottom: 4px solid #939393;
-  background-color: rgba(34,139,34, 0.6);
-  margin-left: 34%;
-  margin-top: 11%;
-  padding: 10px;
+.sticky::after {
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
 }
 
-#mathSticky:hover{
-  animation: hoverSticky 250ms ease-in-out forwards;
+/* Transition to showing the bigger shadow on hover */
+.sticky:hover::after {
+  opacity: 1;
 }
+
+/*Yellow*/
+#athleticsSticky{
+  background-color: rgba(255,255,85, 0.6);
+  margin-left: 51%;
+}
+
+/*Green*/
+#mathSticky{
+  background-color: rgba(34,139,34, 0.6);
+  margin-left: 34%;
+  /*margin-top: 11%;*/
+}
+
+/*#mathSticky:hover{
+  animation: hoverSticky 250ms ease-in-out forwards;
+}*/
 
 /*Blue*/
 #facebookSticky{
-  overflow: scroll;
-  position: fixed;
-  width: 150px;
-  height: 150px;
-  border-radius: 5px;
-  border-bottom: 4px solid #939393;
   background-color: rgba(0,191,255, 0.6);
   margin-left: 18%;
-  margin-top: 12%;
-  padding: 10px;
-}
-
-#facebookSticky:hover{
-  animation: hoverSticky 250ms ease-in-out forwards;
 }
 
 /*Red*/
 #scienceSticky{
-  overflow: scroll;
-  position: fixed;
-  width: 150px;
-  height: 150px;
-  border-radius: 5px;
-  border-bottom: 4px solid #939393;
   background-color: rgba(205,92,92, 0.6);
   margin-left: 84%;
-  margin-top: 12%;
-  padding: 10px;
-}
-
-#scienceSticky:hover{
-  animation: hoverSticky 250ms ease-in-out forwards;
 }
 
 /*Orange*/
 #vismedSticky{
-  overflow: scroll;
-  position: fixed;
-  width: 150px;
-  height: 150px;
-  border-radius: 5px;
-  border-bottom: 4px solid #939393;
   background-color: rgba(255,165,0, 0.6);
   margin-left: 67%;
-  margin-top: 11%;
-  padding: 10px;
-}
-
-#vismedSticky:hover{
-  animation: hoverSticky 250ms ease-in-out forwards;
-
 }
 
 /*Purple*/
 #communitySticky{
-  overflow: scroll;
-  position: fixed;
-  width: 150px;
-  height: 150px;
-  padding: 10px;
-  border-radius: 5px;
-  border-bottom: 4px solid #939393;
   background-color: rgba(218,112,214, 0.6);
   margin-left: 3%;
-  margin-top: 13%;
-}
-
-#communitySticky:hover{
-  animation: hoverSticky 250ms ease-in-out forwards;
 }
 
 @-webkit-keyframes hoverTransition {
