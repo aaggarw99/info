@@ -2,7 +2,6 @@ html{
   font-family: Rockwell, “Courier Bold”, Courier, Georgia, Times, “Times New Roman”, serif;
 
 }
-
 #backgroundText {
   color: rgba(255,0,0, 0.5);
   text-align: center;
@@ -91,7 +90,6 @@ nav > ul > li {
 }
 
 #navBarHover:hover {
-  border-radius: 5px;
   cursor: pointer;
 }
 
@@ -136,10 +134,6 @@ nav > ul > li {
   text-transform: uppercase;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.7);
-}
-
-#right_nav > ul > li:hover {
-  border-radius: 5px;
 }
 
 
@@ -356,7 +350,9 @@ body div div p {
   width: 150px;
   height: 150px;
   border-radius: 5px;
-  border-bottom: 4px solid #939393;
+  /*border-bottom: 4px solid #939393;*/
+  border-bottom: 4px solid #323232;
+
   padding: 10px;
 }
 
@@ -365,16 +361,7 @@ body div div p {
   color: black;
 }
 
-.sticky::after {
-  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
 
-/* Transition to showing the bigger shadow on hover */
-.sticky:hover::after {
-  opacity: 1;
-}
 
 /*Yellow*/
 #athleticsSticky{
@@ -388,10 +375,6 @@ body div div p {
   margin-left: 34%;
   /*margin-top: 11%;*/
 }
-
-/*#mathSticky:hover{
-  animation: hoverSticky 250ms ease-in-out forwards;
-}*/
 
 /*Blue*/
 #facebookSticky{
