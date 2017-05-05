@@ -914,3 +914,6 @@ body div div p {
     transform: translateY(-2000px);
   }
 }
+::-webkit-scrollbar-corner {
+  background: #0c0c0c;
+}
