@@ -2,20 +2,12 @@ html{
   font-family: Rockwell, “Courier Bold”, Courier, Georgia, Times, “Times New Roman”, serif;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   height: 100%;
+  background-attachment: fixed;
+
 
 }
-#backgroundText {
-  color: rgba(255,0,0, 0.5);
-  text-align: center;
-  clear: both;
-  position: relative;
-  z-index: -10;
-  border: 2px solid black;
-  margin-top: 30%;
-  font-size: 48px;
-  padding: -30px;
 
-}
+
 
 .blueHeader {
   background-color: #2196F3;
@@ -48,11 +40,14 @@ body{
 }
 
 .indexBody {
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 footer {
   background-color: #ddd;
+  position: absolute;
+  right: 0;
+  bottom: 0;
   left: 0;
 }
 
@@ -204,7 +199,6 @@ li:hover > ul.drop-menu.menu1 li {
   position: absolute;
   height: 40px;
   width: 100%;
-  overflow: hidden;
   font-size: 14px;
   line-height: 10px;
   padding-left: 10px;
@@ -304,10 +298,15 @@ a:hover{
 }
 
 body div div p {
-  padding-left: 5px;
+  /*padding-left: 5px;
   padding-right: 5px;
-  text-align: left;
+  text-align: left;*/
 
+}
+
+.sticky_wrapper {
+  width: 100%;
+  text-align: center;
 }
 
 
@@ -315,47 +314,32 @@ body div div p {
   text-indent: 30px;
 }
 
-#stickyOverflow{
-  overflow-y: scroll;
-}
 
 #stickyNoteHeaders{
   font-weight: bold;
   font-size: 18px;
-  padding-bottom: 0px;
-}
-
-.stickyNoteLine{
-  border: 0.5px solid black;
-}
-
-.bigfontBackground {
-  position: fixed;
+  text-align:center;
+  vertical-align: middle;
+  margin-top: 35%;
+  height: 75%;
   width: 100%;
-  height: 300px;
-  background-color: transparent;
-}
 
-.bigfontBackground h1{
-  position: relative;
-  font-size: 250px;
-  color: rgba(0, 0, 0, 0.6);
-  text-align: center;
-  z-index: -5;
-  margin-top: 100px;
 }
 
 .sticky {
-  margin-top: 10%;
-  overflow: scroll;
-  position: fixed;
+  margin-top: 7.5%;
+  overflow: hidden;
+  position: relative;
   width: 150px;
   height: 150px;
-  border-radius: 5px;
+  border-radius: 100%;
   /*border-bottom: 4px solid #939393;*/
-  border-bottom: 4px solid #323232;
-
+  /*border-bottom: 4px solid #323232;*/
+  box-shadow: inset -20px -20px 0 rgba(0, 0, 0, 0.2);
   padding: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+  display: inline-block;
 }
 
 .sticky:hover {
@@ -363,43 +347,85 @@ body div div p {
   color: black;
 }
 
+.sticky .crater1,
+.sticky .crater2,
+.sticky .crater3,
+.sticky .crater4,
+.sticky .crater5 {
+  position: absolute;
+  border-radius: 100%;
+  background: rgba(0, 0, 0, 0.15);
+  box-shadow: inset 3px 3px 0 rgba(0, 0, 0, 0.2);
+}
 
+.sticky .crater1 {
+  height: 20px;
+  width: 20px;
+  top: 32%;
+  left: 17%;
+}
 
+.sticky .crater2 {
+  height: 30px;
+  width: 30px;
+  top: 50%;
+  left: 54%;
+}
+
+.sticky .crater3 {
+  height: 35px;
+  width: 35px;
+  top: 10%;
+  left: 50%;
+}
+
+.sticky .crater4 {
+  height: 20px;
+  width: 20px;
+  top: 40%;
+  left: 20%;
+}
+
+.sticky .crater5 {
+  width: 33px;
+  height: 33px;
+  top: 50%;
+  left: 52%;
+}
 /*Yellow*/
 #athleticsSticky{
   background-color: rgba(255,255,85, 0.6);
-  margin-left: 51%;
+  /*margin-left: 51%;*/
 }
 
 /*Green*/
 #mathSticky{
   background-color: rgba(34,139,34, 0.6);
-  margin-left: 34%;
-  /*margin-top: 11%;*/
+  /*margin-left: 34%;*/
 }
 
 /*Blue*/
 #facebookSticky{
   background-color: rgba(0,191,255, 0.6);
-  margin-left: 18%;
+  /*margin-left: 18%;*/
 }
 
 /*Red*/
 #scienceSticky{
   background-color: rgba(205,92,92, 0.6);
-  margin-left: 84%;
+  /*margin-left: 84%;*/
 }
 
 /*Orange*/
 #vismedSticky{
   background-color: rgba(255,165,0, 0.6);
-  margin-left: 67%;
+  /*margin-left: 67%;*/
 }
 
 /*Purple*/
 #communitySticky{
   background-color: rgba(218,112,214, 0.6);
-  margin-left: 3%;
+  /*margin-left: 3%;*/
 }
 
 @-webkit-keyframes hoverTransition {
@@ -884,26 +910,6 @@ body div div p {
   height: 3px;
   background: transparent;
   box-shadow: 549px 1686px #FFF , 1043px 1859px #FFF , 1779px 786px #FFF , 1024px 900px #FFF , 1426px 1450px #FFF , 1948px 1863px #FFF , 1648px 49px #FFF , 262px 992px #FFF , 281px 179px #FFF , 1744px 818px #FFF , 749px 1083px #FFF , 1747px 1696px #FFF , 73px 1006px #FFF , 120px 312px #FFF , 879px 1938px #FFF , 41px 755px #FFF , 1507px 1693px #FFF , 335px 1285px #FFF , 737px 362px #FFF , 1926px 807px #FFF , 363px 1021px #FFF , 1676px 636px #FFF , 1271px 1308px #FFF , 838px 407px #FFF , 872px 1146px #FFF , 785px 161px #FFF , 1494px 800px #FFF , 1605px 1001px #FFF , 1929px 1045px #FFF , 788px 1612px #FFF , 1871px 454px #FFF , 952px 179px #FFF , 1208px 1465px #FFF , 1748px 1657px #FFF , 1890px 1224px #FFF , 758px 965px #FFF , 475px 1464px #FFF , 1998px 716px #FFF , 897px 1056px #FFF , 1394px 1924px #FFF , 2px 1307px #FFF , 1324px 1201px #FFF , 1987px 295px #FFF , 954px 1831px #FFF , 524px 1181px #FFF , 1862px 314px #FFF , 147px 1813px #FFF , 1616px 1617px #FFF , 1562px 213px #FFF , 597px 1707px #FFF , 1945px 53px #FFF , 357px 693px #FFF , 773px 1458px #FFF , 374px 1383px #FFF , 43px 545px #FFF , 1424px 457px #FFF , 1568px 1495px #FFF , 1177px 830px #FFF , 1329px 743px #FFF , 1180px 98px #FFF , 1044px 3px #FFF , 52px 470px #FFF , 1126px 195px #FFF , 1185px 996px #FFF , 1134px 295px #FFF , 1185px 309px #FFF , 1904px 407px #FFF , 999px 588px #FFF , 1283px 305px #FFF , 1710px 327px #FFF , 855px 931px #FFF , 1739px 909px #FFF , 259px 454px #FFF , 146px 506px #FFF , 997px 623px #FFF , 740px 920px #FFF , 156px 760px #FFF , 234px 440px #FFF , 894px 1589px #FFF , 821px 453px #FFF , 899px 774px #FFF , 988px 961px #FFF , 394px 1744px #FFF , 1277px 780px #FFF , 342px 1425px #FFF , 791px 1673px #FFF , 1459px 1348px #FFF , 1486px 953px #FFF , 1877px 1201px #FFF , 460px 1694px #FFF , 1896px 780px #FFF , 1815px 1207px #FFF , 893px 1737px #FFF , 1073px 157px #FFF , 1867px 1960px #FFF , 561px 1115px #FFF , 938px 612px #FFF , 1025px 981px #FFF , 1425px 751px #FFF , 844px 1562px #FFF;
-}
-
-#title {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  color: #FFF;
-  text-align: center;
-  font-family: "lato", sans-serif;
-  font-weight: 300;
-  font-size: 50px;
-  letter-spacing: 10px;
-  margin-top: -60px;
-  padding-left: 10px;
-}
-#title span {
-  background: -webkit-linear-gradient(white, #38495a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 @keyframes animStar {
