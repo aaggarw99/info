@@ -84,3 +84,4 @@ try {
 } catch (err) {
   console.log('Oops, unable to copy');
 }
+}
