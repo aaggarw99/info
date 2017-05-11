@@ -26,14 +26,6 @@ $(document).ready(function() {
 
 function show_popup() {
   var popup = document.getElementById("popup_modal");
-  // popup.animate([
-  // 		  // keyframes
-  // 		  { visibility: 'hidden' },
-  // 		  { visibility: 'visible' }
-  // 			], {
-  // 		  // timing options
-  // 		  duration: 1000,
-  // 			});
   popup.style.visibility = "visible";
   popup_status = true;
 }
@@ -91,7 +83,4 @@ try {
   console.log('Copying text command was ' + msg);
 } catch (err) {
   console.log('Oops, unable to copy');
-}
-
-document.body.removeChild(textArea);
 }
