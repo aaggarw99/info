@@ -3,11 +3,7 @@ html{
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   height: 100%;
   background-attachment: fixed;
-
-
 }
-
-
 
 .blueHeader {
   background-color: #2196F3;
@@ -39,26 +35,15 @@ body{
   margin: 0;
 }
 
-.indexBody {
-  /*overflow: hidden;*/
-}
-
-footer {
-  background-color: #ddd;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
 nav{
   padding: 30px;
   text-align: left;
   float:left;
   width:20%;
-  /*z-index: 10;*/
+  z-index: 10;
 }
 
+/* By default, don't show the nav bar */
 .indexNav nav {
   display: none;
 }
@@ -90,7 +75,6 @@ nav > ul > li {
   cursor: pointer;
 }
 
-
 #wrapper {
   height: 500px;
   width: 100%;
@@ -103,7 +87,6 @@ nav > ul > li {
   display: inline-block;
 
 }
-
 
 #right_nav{
   padding: 30px;
@@ -133,8 +116,6 @@ nav > ul > li {
   color: rgba(0, 0, 0, 0.7);
 }
 
-
-
 ul.drop-menu {
   position: absolute;
   top: 100%;
@@ -152,8 +133,6 @@ ul.drop-menu li {
 ul.drop-menu li:hover {
   background: #606060;
   color: red;
-
-
 }
 
 ul.drop-menu li:last-child {
@@ -168,7 +147,7 @@ li:hover > ul.drop-menu li {
   display: block;
 }
 
-/*This is the animation for the drop-down menus*/
+/* This is the animation for the drop-down menus */
 
 @-webkit-keyframes menuTransition {
   0% {
@@ -184,27 +163,7 @@ li:hover > ul.drop-menu.menu1 li {
   animation: menuTransition 300ms ease-in-out forwards;
 }
 
-/*Extra Menu Testing
-  animation: flipMenuTransition 300ms ease-in-out forwards;
-
-  @-webkit-keyframes flipMenuTransition{
-
-  }
-*/
-
-
-.stickyFooter{
-  bottom: 0;
-  left:0;
-  position: absolute;
-  height: 40px;
-  width: 100%;
-  font-size: 14px;
-  line-height: 10px;
-  padding-left: 10px;
-  background-color: #ddd;
-  z-index: 500;
-}
+/* Link styles */
 
 a{
   text-decoration: none;
@@ -227,7 +186,7 @@ a:hover{
   cursor: pointer;
 }
 
-/*For the information pages*/
+/* For the information pages */
 .document {
   text-align: left;
   vertical-align: middle;
@@ -266,20 +225,6 @@ a:hover{
 
 }
 
-
-#slideshow {
-  position: relative;
-  width: 40%;
-  height: 250px;
-}
-
-#slideshow div {
-  position: absolute;
-  text-align: center;
-}
-
-
-
 .page_content {
   position: relative;
   padding-right: 20px;
@@ -297,23 +242,16 @@ a:hover{
   text-align: left;
 }
 
-body div div p {
-  /*padding-left: 5px;
-  padding-right: 5px;
-  text-align: left;*/
-
-}
+/* Sticky/Planet styles */
 
 .sticky_wrapper {
   width: 100%;
   text-align: center;
 }
 
-
 #textIndent {
   text-indent: 30px;
 }
-
 
 #stickyNoteHeaders{
   font-weight: bold;
@@ -394,42 +332,37 @@ body div div p {
   top: 33%;
   left: 52%;
 }
-/*Yellow*/
+/* Yellow */
 #athleticsSticky{
   background-color: rgba(255,255,85, 0.6);
-  /*margin-left: 51%;*/
 }
 
-/*Green*/
+/* Green */
 #mathSticky{
   background-color: rgba(34,139,34, 0.6);
-  /*margin-left: 34%;*/
 }
 
-/*Blue*/
+/* Blue */
 #facebookSticky{
   background-color: rgba(0,191,255, 0.6);
-  /*margin-left: 18%;*/
 }
 
-/*Red*/
+/* Red */
 #scienceSticky{
   background-color: rgba(205,92,92, 0.6);
-  /*margin-left: 84%;*/
 }
 
-/*Orange*/
+/* Orange */
 #vismedSticky{
   background-color: rgba(255,165,0, 0.6);
-  /*margin-left: 67%;*/
 }
 
-/*Purple*/
+/* Purple */
 #communitySticky{
   background-color: rgba(218,112,214, 0.6);
-  /*margin-left: 3%;*/
 }
 
+/* Animation for <a> */
 @-webkit-keyframes hoverTransition {
   0% {
     opacity: 0.5;
@@ -440,39 +373,22 @@ body div div p {
   }
 }
 
-
+/* Animation for the planets */
 @-webkit-keyframes hoverSticky {
   0% {
     transform: rotate(5deg) scale(1);
     color: black;
   }
-
   50% {
     transform: rotate(-5deg) scale(1.5);
   }
-
   100% {
     transform: rotate(0deg) scale(1.5);
     color: black;
   }
-  /*
-  0% {
-  transform: rotate(5deg) scale(.9);
-
-  }
-  50% {
-    transform: rotate(-5deg) scale(1.2);
-  }
-  100% {
-    transform: rotate(0deg) scale(1)
-  }
-
-
-  */
-
-
 }
 
+/* Animation for sliding in nav bar */
 @-webkit-keyframes slideInEffect {
   perspective: 500px;
   0% {
@@ -494,7 +410,6 @@ body div div p {
   top: 0;
   left: 0;
 }
-
 
 /*Loading Spinner*/
 
@@ -519,27 +434,6 @@ body div div p {
   border-radius: 50%;
 }
 
-.spinner1:after {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border: 4px solid transparent;
-  border-top-color: orangered;
-  border-bottom-color: orangered;
-  animation: spinny 1s linear infinite;
-}
-
-@-webkit-keyframes spinny {
-  0% {
-    transform: rotate(0deg) scale(1);
-  }
-  50%{
-    transform: rotate(45deg) scale(1.1);
-  }
-  100%{
-    transform: rotate(360deg) scale(1);
-  }
-}
 
 .spinner2 {
   height: 0px;
@@ -568,6 +462,8 @@ body div div p {
           animation: bounce 1s ease-in-out 0.66s infinite;
 }
 
+/* Animation for bouncing loader*/
+
 @-webkit-keyframes bounce {
   0%, 75%, 100% {
             transform: translateY(0px);
@@ -576,7 +472,6 @@ body div div p {
             transform: translateY(-30px);
   }
 }
-
 
 .loader .loader-section {
   position: fixed;
@@ -590,7 +485,6 @@ body div div p {
 
 .loader .loader-section.section-left {
   left: 0;
-
 }
 
 .loader .loader-section.section-right {
@@ -600,8 +494,6 @@ body div div p {
 .loaded .loader .loader-section.section-left {
   -webkit-transform: translateX(-100%);
   transform: translateX(-100%);
-
-
   -webkit-transform: all 0.3s 0.3s ease-out;
   transform: all 0.3s 0.3s ease-out;
 }
@@ -609,8 +501,6 @@ body div div p {
 .loaded .loader .loader-section.section-right {
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
-
-
   -webkit-transform: all 0.3s 0.3s ease-out;
    transform: all 0.3s 0.3s ease-out;
 }
@@ -628,10 +518,11 @@ body div div p {
   -webkit-transform: translateY(-100%);
     -ms-transform: translateY(-100%);
         transform: translateY(-100%);
-
     -webkit-transition: all 0.3s 0.6s ease-out;
         transition: all 0.3s 0.6s ease-out;
 }
+
+/* Handles popup modal when clicking the mail */
 
 #popup_modal {
   width: 400px;
@@ -642,7 +533,6 @@ body div div p {
   background-color: #ddd;
   opacity: .9;
   border-radius: 5px;
-  /*border: 1px solid black;*/
   position: absolute;
   top: 0;
   left: 0;
