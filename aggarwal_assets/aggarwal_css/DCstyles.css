@@ -20,14 +20,19 @@ html{
 .redHeader{
   background-color: #F44336;
 }
+.blueHeader,
+.greenHeader,
+.yellowHeader,
+.redHeader {
+  height: 43vh;
+  min-height: 300px;
+  background: url("../aggarwal_images/chicago_skyline.jpg") no-repeat center center scroll;
+  background-size: cover;
+}
 
 #reg {
   background-color: none;
   height: 0;
-}
-
-header {
-  height: 250px;
 }
 
 body{
@@ -190,40 +195,41 @@ a:hover{
 .document {
   text-align: left;
   vertical-align: middle;
-  width: 40%;
-  height: 69vh;
-  margin-left: 30%;
-  margin-top: -55px;
+  width: 55%;
+  margin-left: 22.5%;
   clear: both;
-  border-left: solid black 1px;
-  border-right: solid black 1px;
+  border-left: solid grey 1px;
+  border-right: solid grey 1px;
+  border-top: solid grey 1px;
   padding: 20px;
-  box-shadow: 4px 23px 30px black;
-  overflow-y: scroll;
+  bottom: 0;
+  margin-top: 10px;
+}
+.test-document {
+  text-align: left;
+  vertical-align: middle;
+  width: 55%;
+  margin-left: 22.5%;
+  clear: both;
+  border-left: solid grey 1px;
+  border-right: solid grey 1px;
+  border-top: solid grey 1px;
+  padding: 20px;
+  bottom: 0;
+  margin-top: 10px;
+}
+.test-document:hover {
+  /*animation: fadeDoc linear 500ms forwards;*/
 }
 
- #blueDoc {
-  background-color: #ddd;
-  border-top: solid navy 5px;
+@-webkit-keyframes fadeDoc {
+  0% {
+  }
+  100% {
+    background-color: grey;
+  }
 }
 
- #greenDoc {
-  background-color: #ddd;
-  border-top: solid #388E3C 5px;
-
-}
-
- #yellowDoc {
-  background-color: #ddd;
-  border-top: solid #FBC02D 5px;
-
-}
-
- #redDoc {
-  background-color: #ddd;
-  border-top: solid #D32F2F 5px;
-
-}
 
 .page_content {
   position: relative;
@@ -280,11 +286,30 @@ a:hover{
   margin-left: 2%;
   margin-right: 2%;
   display: inline-block;
+  opacity: 0.6;
+  animation: deflate 350ms ease-out;
+
 }
 
 .sticky:hover {
   animation: hoverSticky 350ms linear forwards;
   color: black;
+}
+
+@-webkit-keyframes deflate {
+  0% {
+    transform: rotate(0deg) scale(1.5);
+    color: black;
+    opacity: 1;
+  }
+  50% {
+    transform: rotate(-5deg) scale(1.5);
+  }
+  100% {
+    transform: rotate(0deg) scale(1);
+    color: black;
+    opacity: 0.6;
+  }
 }
 
 .sticky .crater1,
@@ -334,32 +359,32 @@ a:hover{
 }
 /* Yellow */
 #athleticsSticky{
-  background-color: rgba(255,255,85, 0.6);
+  background-color: rgb(255,255,85);
 }
 
 /* Green */
 #mathSticky{
-  background-color: rgba(34,139,34, 0.6);
+  background-color: rgb(34,139,34);
 }
 
 /* Blue */
 #facebookSticky{
-  background-color: rgba(0,191,255, 0.6);
+  background-color: rgb(0,191,255);
 }
 
 /* Red */
 #scienceSticky{
-  background-color: rgba(205,92,92, 0.6);
+  background-color: rgb(205,92,92);
 }
 
 /* Orange */
 #vismedSticky{
-  background-color: rgba(255,165,0, 0.6);
+  background-color: rgb(255,165,0);
 }
 
 /* Purple */
 #communitySticky{
-  background-color: rgba(218,112,214, 0.6);
+  background-color: rgb(218,112,214);
 }
 
 /* Animation for <a> */
@@ -378,6 +403,7 @@ a:hover{
   0% {
     transform: rotate(5deg) scale(1);
     color: black;
+    opacity: 0.6;
   }
   50% {
     transform: rotate(-5deg) scale(1.5);
@@ -385,6 +411,7 @@ a:hover{
   100% {
     transform: rotate(0deg) scale(1.5);
     color: black;
+    opacity: 1;
   }
 }
 
