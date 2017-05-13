@@ -1,0 +1,208 @@
+/*
+  This page provides the styles for elements used universally in this website.
+*/
+
+nav{
+  padding: 30px;
+  text-align: left;
+  float:left;
+  width:20%;
+  z-index: 10;
+}
+
+/* By default, don't show the nav bar */
+.indexNav nav {
+  display: none;
+}
+
+nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+
+}
+
+nav > ul > li {
+  float: left;
+  width: 220px;
+  height: 65px;
+  line-height: 65px;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
+  background: #ddd;
+  animation: slideInEffect 300ms ease-in forwards;
+}
+
+#navBarHover:hover {
+  cursor: pointer;
+}
+
+#right_nav{
+  padding: 30px;
+  float:right;
+  text-align: right;
+  width: 60%;
+  font-family: Rockwell, “Courier Bold”, Courier, Georgia, Times, “Times New Roman”, serif;
+}
+
+#right_nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#right_nav > ul > li {
+  float: right;
+  width: 150px;
+  height: 65px;
+  line-height: 65px;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+ul.drop-menu {
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  width: 100%;
+  padding: 0;
+  z-index: 10;
+}
+
+ul.drop-menu li {
+  color: rgba(0, 0, 0, 0.9);
+  background: #666;
+}
+
+#drop_icon {
+  font-size: 30px;
+}
+
+ul.drop-menu li:hover {
+  background: #606060;
+  color: red;
+}
+
+ul.drop-menu li:last-child {
+  border-radius: 0px 0px 0px 0px;
+}
+
+ul.drop-menu li {
+  display: none;
+}
+
+li:hover > ul.drop-menu li {
+  display: block;
+}
+
+
+/* This is the animation for the drop-down menus */
+
+@-webkit-keyframes menuTransition {
+  0% {
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+li:hover > ul.drop-menu.menu1 li {
+  opacity: 0;
+  animation: menuTransition 300ms ease-in-out forwards;
+}
+
+/* Link styles */
+
+a{
+  text-decoration: none;
+}
+
+a:default{
+  color: rgba(0, 0, 0, 0.5);
+}
+a:visited{
+  color:black;
+}
+a:active{
+  color: red;
+}
+a:link{
+  color:black;
+}
+a:hover{
+  animation: hoverTransition 50ms ease-in forwards;
+  cursor: pointer;
+}
+
+/* Animation for <a> */
+@-webkit-keyframes hoverTransition {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    color:#ff3232;
+    opacity: 1;
+  }
+}
+
+/* Handles popup modal when clicking the mail */
+
+#popup_modal {
+  width: 400px;
+  padding: 10px;
+  height: 200px;
+  visibility: hidden;
+  z-index: 10000000;
+  background-color: #ddd;
+  opacity: .9;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  box-shadow: 4px 15px 30px black;
+}
+
+.top_header{
+  position: relative;
+  width: 100%;
+  text-align: right;
+  font-size: 28px;
+}
+
+#alert_message {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.button_list {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.button_list #copy_clip_button,
+.button_list #open_mail_button {
+  font-size: 20px;
+  background-color: #666;
+  width: 150px;
+  height: 60px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px;
+  opacity: 1;
+}

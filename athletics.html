@@ -5,7 +5,12 @@
     <title>Athletics</title>
     <link rel="shortcut icon" href="aggarwal_assets/aggarwal_images/yellow.ico">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Layout Styles -->
+    <link rel="stylesheet" type="text/css" href="aggarwal_assets/aggarwal_css/layout.css">
+    <!-- Document Styles -->
     <link rel="stylesheet" type="text/css" href="aggarwal_assets/aggarwal_css/DCstyles.css">
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="aggarwal_assets/font-awesome/css/font-awesome.min.css">
     <script src="aggarwal_assets/aggarwal_javascript/jquery-3.1.1.min.js"></script>
     <script src="aggarwal_assets/aggarwal_javascript/script.js"></script>
   </head>
@@ -17,7 +22,7 @@
             <a href="about.html"><li>About</li></a>
             <a href="athletics.html"><li>Athletics</li></a>
             <a href="clubs.html"><li>Clubs</li></a>
-            <a href="https://github.com/cointk" target="_blank"><li>Facebook's Favorite</li></a>
+            <a href="https://github.com/cointk" target="_blank"><li>HackIllinois</li></a>
             <a href="vismed3d.html"><li>Work</li></a>
           </ul>
         </li>
@@ -26,9 +31,18 @@
 
     <nav id="right_nav">
       <ul>
-        <li><a href="javascript:show_popup();"><i class="material-icons" style="font-size: 30px; line-height: 48px; margin-top: 10px; margin-bottom: 10px;">mail</i></a></li>
-        <li><a id = "navBarHover" href="ashwin.pdf" target="_blank">RESUME</a></li>
+        <li><a href="javascript:show_popup();"><i id = "drop_icon" class="fa fa-envelope" aria-hidden="true"></i></a>
+          <ul class="drop-menu menu1">
+            <a id = "drop_icon" href="https://github.com/aaggarw99" target="_blank"><li>
+            <i class="fa fa-github" aria-hidden="true"></i></li></a>
+            <a id = "drop_icon" href="https://www.facebook.com/profile.php?id=100007288487321" target="_blank"><li>
+            <i class="fa fa-facebook" aria-hidden="true"></i></li></a>
+            <a id = "drop_icon" href="https://www.linkedin.com/in/aaggarw99/" target="_blank"><li>
+            <i class="fa fa-linkedin" aria-hidden="true"></i></li></a>
+          </ul>
 
+        </li>
+        <li><a id = "navBarHover" href="ashwin.pdf" target="_blank">RESUME</a></li>
       </ul>
     </nav>
   </header>
