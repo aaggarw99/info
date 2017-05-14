@@ -10,33 +10,37 @@ html{
 
 .blueHeader {
   background-color: #2196F3;
+  background: url("../aggarwal_images/electronics.jpg") no-repeat center center scroll;
 }
 
 .greenHeader {
   background-color: #4CAF50;
+  background: url("../aggarwal_images/jets.jpg") no-repeat;
+
+
 }
 
 .yellowHeader{
   background-color: #FFEB3B;
+  background: url("../aggarwal_images/track.png");
 }
 
 .redHeader{
   background-color: #F44336;
+  background: url("../aggarwal_images/chicago_skyline.jpg") no-repeat center center scroll;
+
 }
+
+
 .blueHeader,
 .greenHeader,
 .yellowHeader,
 .redHeader {
   height: 43vh;
   min-height: 300px;
-  background: url("../aggarwal_images/chicago_skyline.jpg") no-repeat center center scroll;
   background-size: cover;
 }
 
-#reg {
-  background-color: none;
-  height: 0;
-}
 
 body{
   background-color: whitesmoke;
